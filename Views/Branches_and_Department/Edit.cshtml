@@ -1,0 +1,80 @@
+﻿@model ShareSysProd.Models.Branches_and_Department
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="page-content-wrapper">
+        <!-- BEGIN CONTENT BODY -->
+        <div class="page-content">
+            <!-- BEGIN PAGE HEAD-->
+            <!-- END PAGE HEAD-->
+            <!-- BEGIN PAGE BREADCRUMB -->
+            <!-- Contact Form -->
+            <div class="note note-success">
+                <h3>Department / Branch  Management</h3>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- BEGIN VALIDATION STATES-->
+                    <div class="portlet light portlet-fit portlet-form bordered">
+                        <div class="portlet-title">
+                            <div class="caption">
+                                <i class=" icon-layers font-green"></i>
+                                <span class="caption-subject font-green sbold uppercase">Edit Deparment / Branch</span>
+                            </div>
+
+
+                            <div class="portlet-body">
+                                <div class="form-horizontal">
+                                    
+                                    <hr />
+                                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                    @Html.HiddenFor(model => model.branch_id)
+
+                                <div class="form-group">
+                                    <label class="control-label col-md-4">Branch / Department Code</label>
+                                    <div class="col-md-8">
+                                        @Html.EditorFor(model => model.Branch_department_Code, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Branch_department_Code, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-4">Branch / Department Name</label>                                        
+                                        <div class="col-md-8">
+                                            @Html.EditorFor(model => model.Branch_department_name, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.Branch_department_name, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-offset-5 col-md-7">
+                                            <input type="submit" value="Update" class="btn btn-success" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+}
+

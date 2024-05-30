@@ -1,0 +1,1230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ShareDB_V01Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ShareDB_V01Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Shareholders" EntityType="ShareDB_V01Model.Shareholder" />
+    <EntitySet Name="Blocked_List" EntityType="ShareDB_V01Model.Blocked_List" />
+    <EntitySet Name="budget_year" EntityType="ShareDB_V01Model.budget_year" />
+    <EntitySet Name="Dividend_Disbursement" EntityType="ShareDB_V01Model.Dividend_Disbursement" />
+    <EntitySet Name="Dividend_Info" EntityType="ShareDB_V01Model.Dividend_Info" />
+    <EntitySet Name="serials" EntityType="ShareDB_V01Model.serial" />
+    <EntitySet Name="Subscriptions" EntityType="ShareDB_V01Model.Subscription" />
+    <EntitySet Name="Transactions" EntityType="ShareDB_V01Model.Transaction" />
+    <EntitySet Name="Transfers" EntityType="ShareDB_V01Model.Transfer" />
+    <AssociationSet Name="FK__Blocked_L__share__6C190EBB" Association="ShareDB_V01Model.FK__Blocked_L__share__6C190EBB">
+      <End Role="Shareholder" EntitySet="Shareholders" />
+      <End Role="Blocked_List" EntitySet="Blocked_List" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Dividend___budge__628FA481" Association="ShareDB_V01Model.FK__Dividend___budge__628FA481">
+      <End Role="budget_year" EntitySet="budget_year" />
+      <End Role="Dividend_Info" EntitySet="Dividend_Info" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__budge__5535A963" Association="ShareDB_V01Model.FK__Transacti__budge__5535A963">
+      <End Role="budget_year" EntitySet="budget_year" />
+      <End Role="Transaction" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Dividend___divid__6754599E" Association="ShareDB_V01Model.FK__Dividend___divid__6754599E">
+      <End Role="Dividend_Info" EntitySet="Dividend_Info" />
+      <End Role="Dividend_Disbursement" EntitySet="Dividend_Disbursement" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Dividend___payme__66603565" Association="ShareDB_V01Model.FK__Dividend___payme__66603565">
+      <End Role="Transaction" EntitySet="Transactions" />
+      <End Role="Dividend_Disbursement" EntitySet="Dividend_Disbursement" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Dividend___share__656C112C" Association="ShareDB_V01Model.FK__Dividend___share__656C112C">
+      <End Role="Shareholder" EntitySet="Shareholders" />
+      <End Role="Dividend_Disbursement" EntitySet="Dividend_Disbursement" />
+    </AssociationSet>
+    <AssociationSet Name="FK__serial__serial_s__59FA5E80" Association="ShareDB_V01Model.FK__serial__serial_s__59FA5E80">
+      <End Role="Shareholder" EntitySet="Shareholders" />
+      <End Role="serial" EntitySet="serials" />
+    </AssociationSet>
+    <AssociationSet Name="FK__serial__subscrip__59063A47" Association="ShareDB_V01Model.FK__serial__subscrip__59063A47">
+      <End Role="Subscription" EntitySet="Subscriptions" />
+      <End Role="serial" EntitySet="serials" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subscript__sub_s__4D94879B" Association="ShareDB_V01Model.FK__Subscript__sub_s__4D94879B">
+      <End Role="Shareholder" EntitySet="Shareholders" />
+      <End Role="Subscription" EntitySet="Subscriptions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__trans__5629CD9C" Association="ShareDB_V01Model.FK__Transacti__trans__5629CD9C">
+      <End Role="Shareholder" EntitySet="Shareholders" />
+      <End Role="Transaction" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transfer__transf__5EBF139D" Association="ShareDB_V01Model.FK__Transfer__transf__5EBF139D">
+      <End Role="Shareholder" EntitySet="Shareholders" />
+      <End Role="Transfer" EntitySet="Transfers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transfer__transf__5FB337D6" Association="ShareDB_V01Model.FK__Transfer__transf__5FB337D6">
+      <End Role="Shareholder" EntitySet="Shareholders" />
+      <End Role="Transfer" EntitySet="Transfers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__trans__52593CB8" Association="ShareDB_V01Model.FK__Transacti__trans__52593CB8">
+      <End Role="Subscription" EntitySet="Subscriptions" />
+      <End Role="Transaction" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transfer__paymen__5DCAEF64" Association="ShareDB_V01Model.FK__Transfer__paymen__5DCAEF64">
+      <End Role="Transaction" EntitySet="Transactions" />
+      <End Role="Transfer" EntitySet="Transfers" />
+    </AssociationSet>
+    <EntitySet Name="AspNetRoles" EntityType="ShareDB_V01Model.AspNetRole" />
+    <EntitySet Name="AspNetUsers" EntityType="ShareDB_V01Model.AspNetUser" />
+    <AssociationSet Name="FK__Blocked_L__block__6A30C649" Association="ShareDB_V01Model.FK__Blocked_L__block__6A30C649">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Blocked_List" EntitySet="Blocked_List" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Blocked_L__relea__6B24EA82" Association="ShareDB_V01Model.FK__Blocked_L__relea__6B24EA82">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Blocked_List" EntitySet="Blocked_List" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subscript__appro__4CA06362" Association="ShareDB_V01Model.FK__Subscript__appro__4CA06362">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Subscription" EntitySet="Subscriptions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subscript__creat__4BAC3F29" Association="ShareDB_V01Model.FK__Subscript__creat__4BAC3F29">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Subscription" EntitySet="Subscriptions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__appro__5441852A" Association="ShareDB_V01Model.FK__Transacti__appro__5441852A">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Transaction" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__creat__534D60F1" Association="ShareDB_V01Model.FK__Transacti__creat__534D60F1">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Transaction" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="AspNetUserRoles" Association="ShareDB_V01Model.AspNetUserRoles">
+      <End Role="AspNetRole" EntitySet="AspNetRoles" />
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+    </AssociationSet>
+    <FunctionImport Name="Get_RoleByID" ReturnType="Collection(ShareDB_V01Model.Get_RoleByID_Result)">
+      <Parameter Name="RoleId" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteUserfromRole">
+      <Parameter Name="UserId" Mode="In" Type="String" />
+      <Parameter Name="RoleId" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetUsers_RoleByID" ReturnType="Collection(ShareDB_V01Model.GetUsers_RoleByID_Result)">
+      <Parameter Name="RoleId" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Get_RoleByID2" ReturnType="Collection(ShareDB_V01Model.Get_RoleByID2_Result)">
+      <Parameter Name="UserId" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="Meeting_Type" EntityType="ShareDB_V01Model.Meeting_Type" />
+    <AssociationSet Name="FK__Meeting_T__creat__02FC7413" Association="ShareDB_V01Model.FK__Meeting_T__creat__02FC7413">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Meeting_Type" EntitySet="Meeting_Type" />
+    </AssociationSet>
+    <EntitySet Name="Attendances" EntityType="ShareDB_V01Model.Attendance" />
+    <AssociationSet Name="FK__Attendanc__taken__17F790F9" Association="ShareDB_V01Model.FK__Attendanc__taken__17F790F9">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Attendance" EntitySet="Attendances" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Attendanc__atten__17036CC0" Association="ShareDB_V01Model.FK__Attendanc__atten__17036CC0">
+      <End Role="Shareholder" EntitySet="Shareholders" />
+      <End Role="Attendance" EntitySet="Attendances" />
+    </AssociationSet>
+    <EntitySet Name="System_Posting_Date" EntityType="ShareDB_V01Model.System_Posting_Date" />
+    <FunctionImport Name="VoteResult" ReturnType="Collection(ShareDB_V01Model.VoteResult_Result)" />
+    <EntitySet Name="Shareholders_Total_Dividend_Paid" EntityType="ShareDB_V01Model.Shareholders_Total_Dividend_Paid" />
+    <AssociationSet Name="FK__Sharehold__appro__503BEA1C" Association="ShareDB_V01Model.FK__Sharehold__appro__503BEA1C">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Shareholders_Total_Dividend_Paid" EntitySet="Shareholders_Total_Dividend_Paid" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sharehold__creat__4F47C5E3" Association="ShareDB_V01Model.FK__Sharehold__creat__4F47C5E3">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Shareholders_Total_Dividend_Paid" EntitySet="Shareholders_Total_Dividend_Paid" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sharehold__divid__51300E55" Association="ShareDB_V01Model.FK__Sharehold__divid__51300E55">
+      <End Role="Dividend_Info" EntitySet="Dividend_Info" />
+      <End Role="Shareholders_Total_Dividend_Paid" EntitySet="Shareholders_Total_Dividend_Paid" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sharehold__share__5224328E" Association="ShareDB_V01Model.FK__Sharehold__share__5224328E">
+      <End Role="Shareholder" EntitySet="Shareholders" />
+      <End Role="Shareholders_Total_Dividend_Paid" EntitySet="Shareholders_Total_Dividend_Paid" />
+    </AssociationSet>
+    <EntitySet Name="Candidates" EntityType="ShareDB_V01Model.Candidate" />
+    <EntitySet Name="Elections" EntityType="ShareDB_V01Model.Election" />
+    <EntitySet Name="general_assembly" EntityType="ShareDB_V01Model.general_assembly" />
+    <EntitySet Name="Votes" EntityType="ShareDB_V01Model.Vote" />
+    <AssociationSet Name="FK__Election__electi__1E6F845E" Association="ShareDB_V01Model.FK__Election__electi__1E6F845E">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Election" EntitySet="Elections" />
+    </AssociationSet>
+    <AssociationSet Name="FK__general_a__creat__1B9317B3" Association="ShareDB_V01Model.FK__general_a__creat__1B9317B3">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="general_assembly" EntitySet="general_assembly" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Candidate__candi__2334397B" Association="ShareDB_V01Model.FK__Candidate__candi__2334397B">
+      <End Role="Shareholder" EntitySet="Shareholders" />
+      <End Role="Candidate" EntitySet="Candidates" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Candidate__elect__22401542" Association="ShareDB_V01Model.FK__Candidate__elect__22401542">
+      <End Role="Election" EntitySet="Elections" />
+      <End Role="Candidate" EntitySet="Candidates" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Vote__candidate___2610A626" Association="ShareDB_V01Model.FK__Vote__candidate___2610A626">
+      <End Role="Candidate" EntitySet="Candidates" />
+      <End Role="Vote" EntitySet="Votes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Election__genera__1F63A897" Association="ShareDB_V01Model.FK__Election__genera__1F63A897">
+      <End Role="general_assembly" EntitySet="general_assembly" />
+      <End Role="Election" EntitySet="Elections" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Vote__vote_elect__2704CA5F" Association="ShareDB_V01Model.FK__Vote__vote_elect__2704CA5F">
+      <End Role="Election" EntitySet="Elections" />
+      <End Role="Vote" EntitySet="Votes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Vote__voter_shar__27F8EE98" Association="ShareDB_V01Model.FK__Vote__voter_shar__27F8EE98">
+      <End Role="Shareholder" EntitySet="Shareholders" />
+      <End Role="Vote" EntitySet="Votes" />
+    </AssociationSet>
+    <EntitySet Name="Candidate_Shareholders" EntityType="ShareDB_V01Model.Candidate_Shareholders" />
+    <EntitySet Name="Election_Result" EntityType="ShareDB_V01Model.Election_Result" />
+    <EntitySet Name="Election_Vote_Result" EntityType="ShareDB_V01Model.Election_Vote_Result" />
+    <EntitySet Name="Election_Vote_Result_2" EntityType="ShareDB_V01Model.Election_Vote_Result_2" />
+    <EntitySet Name="Non_Influential_Vote_Result" EntityType="ShareDB_V01Model.Non_Influential_Vote_Result" />
+    <EntitySet Name="Vote_Result" EntityType="ShareDB_V01Model.Vote_Result" />
+    <EntitySet Name="Top_10_Unpaid_Shareholders" EntityType="ShareDB_V01Model.Top_10_Unpaid_Shareholders" />
+    <EntitySet Name="Transaction_History" EntityType="ShareDB_V01Model.Transaction_History" />
+    <AssociationSet Name="FK__Transacti__appro__56B3DD81" Association="ShareDB_V01Model.FK__Transacti__appro__56B3DD81">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Transaction_History" EntitySet="Transaction_History" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__creat__55BFB948" Association="ShareDB_V01Model.FK__Transacti__creat__55BFB948">
+      <End Role="AspNetUser" EntitySet="AspNetUsers" />
+      <End Role="Transaction_History" EntitySet="Transaction_History" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__budge__57A801BA" Association="ShareDB_V01Model.FK__Transacti__budge__57A801BA">
+      <End Role="budget_year" EntitySet="budget_year" />
+      <End Role="Transaction_History" EntitySet="Transaction_History" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__histr__589C25F3" Association="ShareDB_V01Model.FK__Transacti__histr__589C25F3">
+      <End Role="Shareholder" EntitySet="Shareholders" />
+      <End Role="Transaction_History" EntitySet="Transaction_History" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__histo__54CB950F" Association="ShareDB_V01Model.FK__Transacti__histo__54CB950F">
+      <End Role="Subscription" EntitySet="Subscriptions" />
+      <End Role="Transaction_History" EntitySet="Transaction_History" />
+    </AssociationSet>
+    <EntitySet Name="Unpaid_With_First_Payment_date" EntityType="ShareDB_V01Model.Unpaid_With_First_Payment_date" />
+    <EntitySet Name="TOP_10_Subscribers" EntityType="ShareDB_V01Model.TOP_10_Subscribers" />
+  </EntityContainer>
+  <EntityType Name="Shareholder">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="share_id" Type="String" MaxLength="5" FixedLength="false" Unicode="false" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="share_name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="share_amharic" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="phone_number" Type="Int32" Nullable="false" />
+    <Property Name="phone_number_2" Type="Int32" />
+    <Property Name="ownership_type" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="registration_date" Type="DateTime" Precision="0" />
+    <Property Name="share_status" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Influential_status" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Blocked_List" Relationship="ShareDB_V01Model.FK__Blocked_L__share__6C190EBB" FromRole="Shareholder" ToRole="Blocked_List" />
+    <NavigationProperty Name="Dividend_Disbursement" Relationship="ShareDB_V01Model.FK__Dividend___share__656C112C" FromRole="Shareholder" ToRole="Dividend_Disbursement" />
+    <NavigationProperty Name="serials" Relationship="ShareDB_V01Model.FK__serial__serial_s__59FA5E80" FromRole="Shareholder" ToRole="serial" />
+    <NavigationProperty Name="Subscriptions" Relationship="ShareDB_V01Model.FK__Subscript__sub_s__4D94879B" FromRole="Shareholder" ToRole="Subscription" />
+    <NavigationProperty Name="Transactions" Relationship="ShareDB_V01Model.FK__Transacti__trans__5629CD9C" FromRole="Shareholder" ToRole="Transaction" />
+    <NavigationProperty Name="Transfers" Relationship="ShareDB_V01Model.FK__Transfer__transf__5EBF139D" FromRole="Shareholder" ToRole="Transfer" />
+    <NavigationProperty Name="Transfers1" Relationship="ShareDB_V01Model.FK__Transfer__transf__5FB337D6" FromRole="Shareholder" ToRole="Transfer" />
+    <Property Name="Nationality" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Country" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Sub_sity" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Kebele" Type="Int32" />
+    <Property Name="House_no" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Identification_No" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Occupation" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="POBox" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Attendances" Relationship="ShareDB_V01Model.FK__Attendanc__atten__17036CC0" FromRole="Shareholder" ToRole="Attendance" />
+    <NavigationProperty Name="Shareholders_Total_Dividend_Paid" Relationship="ShareDB_V01Model.FK__Sharehold__share__5224328E" FromRole="Shareholder" ToRole="Shareholders_Total_Dividend_Paid" />
+    <NavigationProperty Name="Candidates" Relationship="ShareDB_V01Model.FK__Candidate__candi__2334397B" FromRole="Shareholder" ToRole="Candidate" />
+    <NavigationProperty Name="Votes" Relationship="ShareDB_V01Model.FK__Vote__voter_shar__27F8EE98" FromRole="Shareholder" ToRole="Vote" />
+    <NavigationProperty Name="Transaction_History" Relationship="ShareDB_V01Model.FK__Transacti__histr__589C25F3" FromRole="Shareholder" ToRole="Transaction_History" />
+  </EntityType>
+  <EntityType Name="Blocked_List">
+    <Key>
+      <PropertyRef Name="blocked_id" />
+    </Key>
+    <Property Name="blocked_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="share_id" Type="Int32" Nullable="false" />
+    <Property Name="blocked_by" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="blocked_amount" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="blocked_date" Type="DateTime" Precision="0" />
+    <Property Name="released_date" Type="DateTime" Precision="0" />
+    <Property Name="blocked_reason" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="blocked_by_user" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="released_by" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Shareholder" Relationship="ShareDB_V01Model.FK__Blocked_L__share__6C190EBB" FromRole="Blocked_List" ToRole="Shareholder" />
+    <NavigationProperty Name="AspNetUser" Relationship="ShareDB_V01Model.FK__Blocked_L__block__6A30C649" FromRole="Blocked_List" ToRole="AspNetUser" />
+    <NavigationProperty Name="AspNetUser1" Relationship="ShareDB_V01Model.FK__Blocked_L__relea__6B24EA82" FromRole="Blocked_List" ToRole="AspNetUser" />
+  </EntityType>
+  <EntityType Name="budget_year">
+    <Key>
+      <PropertyRef Name="budget_year_id" />
+    </Key>
+    <Property Name="budget_year_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="budget_year1" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="ethiopian_year" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="start_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="end_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="days_in_year" Type="Int32" Nullable="false" />
+    <Property Name="year_profit" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="status" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Dividend_Info" Relationship="ShareDB_V01Model.FK__Dividend___budge__628FA481" FromRole="budget_year" ToRole="Dividend_Info" />
+    <NavigationProperty Name="Transactions" Relationship="ShareDB_V01Model.FK__Transacti__budge__5535A963" FromRole="budget_year" ToRole="Transaction" />
+    <NavigationProperty Name="Transaction_History" Relationship="ShareDB_V01Model.FK__Transacti__budge__57A801BA" FromRole="budget_year" ToRole="Transaction_History" />
+  </EntityType>
+  <EntityType Name="Dividend_Disbursement">
+    <Key>
+      <PropertyRef Name="disbursment_id" />
+    </Key>
+    <Property Name="disbursment_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="share_id" Type="Int32" Nullable="false" />
+    <Property Name="payment_id" Type="Int32" Nullable="false" />
+    <Property Name="dividend_id" Type="Int32" Nullable="false" />
+    <Property Name="payment_weighted" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="dividend_amount" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="Withdraw_amount" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="capitalized_amount" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="status" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="transaction_status" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="reference_num" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Dividend_Info" Relationship="ShareDB_V01Model.FK__Dividend___divid__6754599E" FromRole="Dividend_Disbursement" ToRole="Dividend_Info" />
+    <NavigationProperty Name="Transaction" Relationship="ShareDB_V01Model.FK__Dividend___payme__66603565" FromRole="Dividend_Disbursement" ToRole="Transaction" />
+    <NavigationProperty Name="Shareholder" Relationship="ShareDB_V01Model.FK__Dividend___share__656C112C" FromRole="Dividend_Disbursement" ToRole="Shareholder" />
+  </EntityType>
+  <EntityType Name="Dividend_Info">
+    <Key>
+      <PropertyRef Name="dividend_info_id" />
+    </Key>
+    <Property Name="dividend_info_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="budget_year_id" Type="Int32" Nullable="false" />
+    <Property Name="total_weighted_balance_" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="dividend_payout_ratio" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="created_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="status" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="budget_year" Relationship="ShareDB_V01Model.FK__Dividend___budge__628FA481" FromRole="Dividend_Info" ToRole="budget_year" />
+    <NavigationProperty Name="Dividend_Disbursement" Relationship="ShareDB_V01Model.FK__Dividend___divid__6754599E" FromRole="Dividend_Info" ToRole="Dividend_Disbursement" />
+    <NavigationProperty Name="Shareholders_Total_Dividend_Paid" Relationship="ShareDB_V01Model.FK__Sharehold__divid__51300E55" FromRole="Dividend_Info" ToRole="Shareholders_Total_Dividend_Paid" />
+  </EntityType>
+  <EntityType Name="serial">
+    <Key>
+      <PropertyRef Name="serial_id" />
+    </Key>
+    <Property Name="serial_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="serial_from" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="serial_to" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="num_share" Type="Int32" Nullable="false" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="serial_share_id" Type="Int32" Nullable="false" />
+    <Property Name="subscription_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Shareholder" Relationship="ShareDB_V01Model.FK__serial__serial_s__59FA5E80" FromRole="serial" ToRole="Shareholder" />
+    <NavigationProperty Name="Subscription" Relationship="ShareDB_V01Model.FK__serial__subscrip__59063A47" FromRole="serial" ToRole="Subscription" />
+  </EntityType>
+  <EntityType Name="Subscription">
+    <Key>
+      <PropertyRef Name="subscription_id" />
+    </Key>
+    <Property Name="subscription_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sub_share_id" Type="Int32" Nullable="false" />
+    <Property Name="number_of_share" Type="Int32" Nullable="false" />
+    <Property Name="subscription_fee" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="sub_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="sub_status" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="subscription_mode" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Is_reversed" Type="Int32" />
+    <Property Name="created_by" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="created_date" Type="DateTime" Precision="0" />
+    <Property Name="approved_by" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="approved_date" Type="DateTime" Precision="0" />
+    <Property Name="reference" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="remark" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Transferred_Share" Type="Int32" />
+    <NavigationProperty Name="serials" Relationship="ShareDB_V01Model.FK__serial__subscrip__59063A47" FromRole="Subscription" ToRole="serial" />
+    <NavigationProperty Name="Shareholder" Relationship="ShareDB_V01Model.FK__Subscript__sub_s__4D94879B" FromRole="Subscription" ToRole="Shareholder" />
+    <NavigationProperty Name="Transactions" Relationship="ShareDB_V01Model.FK__Transacti__trans__52593CB8" FromRole="Subscription" ToRole="Transaction" />
+    <NavigationProperty Name="AspNetUser" Relationship="ShareDB_V01Model.FK__Subscript__appro__4CA06362" FromRole="Subscription" ToRole="AspNetUser" />
+    <NavigationProperty Name="AspNetUser1" Relationship="ShareDB_V01Model.FK__Subscript__creat__4BAC3F29" FromRole="Subscription" ToRole="AspNetUser" />
+    <NavigationProperty Name="Transaction_History" Relationship="ShareDB_V01Model.FK__Transacti__histo__54CB950F" FromRole="Subscription" ToRole="Transaction_History" />
+  </EntityType>
+  <EntityType Name="Transaction">
+    <Key>
+      <PropertyRef Name="transction_id" />
+    </Key>
+    <Property Name="transction_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="trans_share_id" Type="Int32" Nullable="false" />
+    <Property Name="trans_subscription_id" Type="Int32" Nullable="false" />
+    <Property Name="budget_year_id" Type="Int32" Nullable="false" />
+    <Property Name="Credit" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Debit" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Weighted" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="trans_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="trans_status" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="transaction_type" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Is_reversed" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="created_by" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="created_date" Type="DateTime" Precision="0" />
+    <Property Name="approved_by" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="approved_date" Type="DateTime" Precision="0" />
+    <Property Name="reason" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="remark" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="budget_year" Relationship="ShareDB_V01Model.FK__Transacti__budge__5535A963" FromRole="Transaction" ToRole="budget_year" />
+    <NavigationProperty Name="Dividend_Disbursement" Relationship="ShareDB_V01Model.FK__Dividend___payme__66603565" FromRole="Transaction" ToRole="Dividend_Disbursement" />
+    <NavigationProperty Name="Shareholder" Relationship="ShareDB_V01Model.FK__Transacti__trans__5629CD9C" FromRole="Transaction" ToRole="Shareholder" />
+    <NavigationProperty Name="Subscription" Relationship="ShareDB_V01Model.FK__Transacti__trans__52593CB8" FromRole="Transaction" ToRole="Subscription" />
+    <NavigationProperty Name="Transfers" Relationship="ShareDB_V01Model.FK__Transfer__paymen__5DCAEF64" FromRole="Transaction" ToRole="Transfer" />
+    <NavigationProperty Name="AspNetUser" Relationship="ShareDB_V01Model.FK__Transacti__appro__5441852A" FromRole="Transaction" ToRole="AspNetUser" />
+    <NavigationProperty Name="AspNetUser1" Relationship="ShareDB_V01Model.FK__Transacti__creat__534D60F1" FromRole="Transaction" ToRole="AspNetUser" />
+    <Property Name="reference_no" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Transfer">
+    <Key>
+      <PropertyRef Name="transfer_id" />
+    </Key>
+    <Property Name="transfer_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="transfer_from" Type="Int32" Nullable="false" />
+    <Property Name="transfer_to" Type="Int32" Nullable="false" />
+    <Property Name="payment_id" Type="Int32" Nullable="false" />
+    <Property Name="transfer_amount" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Amount_to_deduct" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="transfer_type" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="transfer_fee" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="transfer_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="transfer_mode" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="status" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="referrence_num" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="transfer_reason" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="temp_date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Shareholder" Relationship="ShareDB_V01Model.FK__Transfer__transf__5EBF139D" FromRole="Transfer" ToRole="Shareholder" />
+    <NavigationProperty Name="Shareholder1" Relationship="ShareDB_V01Model.FK__Transfer__transf__5FB337D6" FromRole="Transfer" ToRole="Shareholder" />
+    <NavigationProperty Name="Transaction" Relationship="ShareDB_V01Model.FK__Transfer__paymen__5DCAEF64" FromRole="Transfer" ToRole="Transaction" />
+    <Property Name="transfer_due_to" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="created_by" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="created_date" Type="DateTime" Precision="0" />
+    <Property Name="approved_by" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="approved_date" Type="DateTime" Precision="0" />
+  </EntityType>
+  <Association Name="FK__Blocked_L__share__6C190EBB">
+    <End Type="ShareDB_V01Model.Shareholder" Role="Shareholder" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Blocked_List" Role="Blocked_List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Blocked_List">
+        <PropertyRef Name="share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Dividend___budge__628FA481">
+    <End Type="ShareDB_V01Model.budget_year" Role="budget_year" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Dividend_Info" Role="Dividend_Info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="budget_year">
+        <PropertyRef Name="budget_year_id" />
+      </Principal>
+      <Dependent Role="Dividend_Info">
+        <PropertyRef Name="budget_year_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__budge__5535A963">
+    <End Type="ShareDB_V01Model.budget_year" Role="budget_year" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Transaction" Role="Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="budget_year">
+        <PropertyRef Name="budget_year_id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="budget_year_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Dividend___divid__6754599E">
+    <End Type="ShareDB_V01Model.Dividend_Info" Role="Dividend_Info" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Dividend_Disbursement" Role="Dividend_Disbursement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dividend_Info">
+        <PropertyRef Name="dividend_info_id" />
+      </Principal>
+      <Dependent Role="Dividend_Disbursement">
+        <PropertyRef Name="dividend_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Dividend___payme__66603565">
+    <End Type="ShareDB_V01Model.Transaction" Role="Transaction" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Dividend_Disbursement" Role="Dividend_Disbursement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transaction">
+        <PropertyRef Name="transction_id" />
+      </Principal>
+      <Dependent Role="Dividend_Disbursement">
+        <PropertyRef Name="payment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Dividend___share__656C112C">
+    <End Type="ShareDB_V01Model.Shareholder" Role="Shareholder" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Dividend_Disbursement" Role="Dividend_Disbursement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Dividend_Disbursement">
+        <PropertyRef Name="share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__serial__serial_s__59FA5E80">
+    <End Type="ShareDB_V01Model.Shareholder" Role="Shareholder" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.serial" Role="serial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="serial">
+        <PropertyRef Name="serial_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__serial__subscrip__59063A47">
+    <End Type="ShareDB_V01Model.Subscription" Role="Subscription" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.serial" Role="serial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subscription">
+        <PropertyRef Name="subscription_id" />
+      </Principal>
+      <Dependent Role="serial">
+        <PropertyRef Name="subscription_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subscript__sub_s__4D94879B">
+    <End Type="ShareDB_V01Model.Shareholder" Role="Shareholder" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Subscription" Role="Subscription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subscription">
+        <PropertyRef Name="sub_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__trans__5629CD9C">
+    <End Type="ShareDB_V01Model.Shareholder" Role="Shareholder" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Transaction" Role="Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="trans_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transfer__transf__5EBF139D">
+    <End Type="ShareDB_V01Model.Shareholder" Role="Shareholder" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Transfer" Role="Transfer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transfer">
+        <PropertyRef Name="transfer_from" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transfer__transf__5FB337D6">
+    <End Type="ShareDB_V01Model.Shareholder" Role="Shareholder" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Transfer" Role="Transfer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transfer">
+        <PropertyRef Name="transfer_to" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__trans__52593CB8">
+    <End Type="ShareDB_V01Model.Subscription" Role="Subscription" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Transaction" Role="Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subscription">
+        <PropertyRef Name="subscription_id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="trans_subscription_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transfer__paymen__5DCAEF64">
+    <End Type="ShareDB_V01Model.Transaction" Role="Transaction" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Transfer" Role="Transfer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transaction">
+        <PropertyRef Name="transction_id" />
+      </Principal>
+      <Dependent Role="Transfer">
+        <PropertyRef Name="payment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="AspNetRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUsers" Relationship="ShareDB_V01Model.AspNetUserRoles" FromRole="AspNetRole" ToRole="AspNetUser" />
+  </EntityType>
+  <EntityType Name="AspNetUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+    <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="FullName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Blocked_List" Relationship="ShareDB_V01Model.FK__Blocked_L__block__6A30C649" FromRole="AspNetUser" ToRole="Blocked_List" />
+    <NavigationProperty Name="Blocked_List1" Relationship="ShareDB_V01Model.FK__Blocked_L__relea__6B24EA82" FromRole="AspNetUser" ToRole="Blocked_List" />
+    <NavigationProperty Name="Subscriptions" Relationship="ShareDB_V01Model.FK__Subscript__appro__4CA06362" FromRole="AspNetUser" ToRole="Subscription" />
+    <NavigationProperty Name="Subscriptions1" Relationship="ShareDB_V01Model.FK__Subscript__creat__4BAC3F29" FromRole="AspNetUser" ToRole="Subscription" />
+    <NavigationProperty Name="Transactions" Relationship="ShareDB_V01Model.FK__Transacti__appro__5441852A" FromRole="AspNetUser" ToRole="Transaction" />
+    <NavigationProperty Name="Transactions1" Relationship="ShareDB_V01Model.FK__Transacti__creat__534D60F1" FromRole="AspNetUser" ToRole="Transaction" />
+    <NavigationProperty Name="AspNetRoles" Relationship="ShareDB_V01Model.AspNetUserRoles" FromRole="AspNetUser" ToRole="AspNetRole" />
+    <NavigationProperty Name="Meeting_Type" Relationship="ShareDB_V01Model.FK__Meeting_T__creat__02FC7413" FromRole="AspNetUser" ToRole="Meeting_Type" />
+    <NavigationProperty Name="Attendances" Relationship="ShareDB_V01Model.FK__Attendanc__taken__17F790F9" FromRole="AspNetUser" ToRole="Attendance" />
+    <NavigationProperty Name="Shareholders_Total_Dividend_Paid" Relationship="ShareDB_V01Model.FK__Sharehold__appro__503BEA1C" FromRole="AspNetUser" ToRole="Shareholders_Total_Dividend_Paid" />
+    <NavigationProperty Name="Shareholders_Total_Dividend_Paid1" Relationship="ShareDB_V01Model.FK__Sharehold__creat__4F47C5E3" FromRole="AspNetUser" ToRole="Shareholders_Total_Dividend_Paid" />
+    <NavigationProperty Name="Elections" Relationship="ShareDB_V01Model.FK__Election__electi__1E6F845E" FromRole="AspNetUser" ToRole="Election" />
+    <NavigationProperty Name="general_assembly" Relationship="ShareDB_V01Model.FK__general_a__creat__1B9317B3" FromRole="AspNetUser" ToRole="general_assembly" />
+    <NavigationProperty Name="Transaction_History" Relationship="ShareDB_V01Model.FK__Transacti__appro__56B3DD81" FromRole="AspNetUser" ToRole="Transaction_History" />
+    <NavigationProperty Name="Transaction_History1" Relationship="ShareDB_V01Model.FK__Transacti__creat__55BFB948" FromRole="AspNetUser" ToRole="Transaction_History" />
+  </EntityType>
+  <Association Name="FK__Blocked_L__block__6A30C649">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="0..1" />
+    <End Type="ShareDB_V01Model.Blocked_List" Role="Blocked_List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Blocked_List">
+        <PropertyRef Name="blocked_by_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Blocked_L__relea__6B24EA82">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="0..1" />
+    <End Type="ShareDB_V01Model.Blocked_List" Role="Blocked_List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Blocked_List">
+        <PropertyRef Name="released_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subscript__appro__4CA06362">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="0..1" />
+    <End Type="ShareDB_V01Model.Subscription" Role="Subscription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subscription">
+        <PropertyRef Name="approved_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subscript__creat__4BAC3F29">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="0..1" />
+    <End Type="ShareDB_V01Model.Subscription" Role="Subscription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subscription">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__appro__5441852A">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="0..1" />
+    <End Type="ShareDB_V01Model.Transaction" Role="Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="approved_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__creat__534D60F1">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="0..1" />
+    <End Type="ShareDB_V01Model.Transaction" Role="Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AspNetUserRoles">
+    <End Type="ShareDB_V01Model.AspNetRole" Role="AspNetRole" Multiplicity="*" />
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="*" />
+  </Association>
+  <ComplexType Name="Get_RoleByID_Result">
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="Id" Nullable="false" MaxLength="128" />
+    <Property Type="String" Name="UserId" Nullable="false" MaxLength="128" />
+  </ComplexType>
+  <ComplexType Name="GetUsers_RoleByID_Result">
+    <Property Type="String" Name="RoleName" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="RoleID" Nullable="false" MaxLength="128" />
+    <Property Type="String" Name="UsersRole" Nullable="false" MaxLength="128" />
+    <Property Type="String" Name="Username" Nullable="false" MaxLength="256" />
+  </ComplexType>
+  <ComplexType Name="Get_RoleByID2_Result">
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="Id" Nullable="false" MaxLength="128" />
+    <Property Type="String" Name="UserId" Nullable="false" MaxLength="128" />
+  </ComplexType>
+  <ComplexType Name="GetUsers_RoleByID1_Result">
+    <Property Type="String" Name="RoleName" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="RoleID" Nullable="false" MaxLength="128" />
+    <Property Type="String" Name="UsersRole" Nullable="false" MaxLength="128" />
+    <Property Type="String" Name="Username" Nullable="false" MaxLength="256" />
+  </ComplexType>
+  <ComplexType Name="GetUsers_RoleByID2_Result">
+    <Property Type="String" Name="RoleName" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="RoleID" Nullable="false" MaxLength="128" />
+    <Property Type="String" Name="UsersRole" Nullable="false" MaxLength="128" />
+    <Property Type="String" Name="Username" Nullable="false" MaxLength="256" />
+  </ComplexType>
+  <EntityType Name="Meeting_Type">
+    <Key>
+      <PropertyRef Name="meeting_type_id" />
+    </Key>
+    <Property Name="meeting_type_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="meeting_type1" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="meeting_agenda" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="created_by" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="created_date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="AspNetUser" Relationship="ShareDB_V01Model.FK__Meeting_T__creat__02FC7413" FromRole="Meeting_Type" ToRole="AspNetUser" />
+  </EntityType>
+  <Association Name="FK__Meeting_T__creat__02FC7413">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Meeting_Type" Role="Meeting_Type" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Meeting_Type">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Attendance">
+    <Key>
+      <PropertyRef Name="attendance_id" />
+    </Key>
+    <Property Name="attendance_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="general_assembly_id" Type="Int32" Nullable="false" />
+    <Property Name="attendant_share_id" Type="Int32" Nullable="false" />
+    <Property Name="total_subscription" Type="Int32" Nullable="false" />
+    <Property Name="taken_by" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="created_date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="AspNetUser" Relationship="ShareDB_V01Model.FK__Attendanc__taken__17F790F9" FromRole="Attendance" ToRole="AspNetUser" />
+    <NavigationProperty Name="Shareholder" Relationship="ShareDB_V01Model.FK__Attendanc__atten__17036CC0" FromRole="Attendance" ToRole="Shareholder" />
+  </EntityType>
+  <Association Name="FK__Attendanc__taken__17F790F9">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Attendance" Role="Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="taken_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Attendanc__atten__17036CC0">
+    <End Type="ShareDB_V01Model.Shareholder" Role="Shareholder" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Attendance" Role="Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="attendant_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="System_Posting_Date">
+    <Key>
+      <PropertyRef Name="date_id" />
+    </Key>
+    <Property Name="date_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="posting_date" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <ComplexType Name="VoteResult_Result">
+    <Property Type="Int32" Name="vote_id" Nullable="false" />
+    <Property Type="Int32" Name="vote_election_id" Nullable="false" />
+    <Property Type="Int32" Name="voter_share_id" Nullable="false" />
+    <Property Type="Int32" Name="candidate_id" Nullable="false" />
+    <Property Type="Decimal" Name="total_vote_value" Nullable="false" Precision="10" Scale="2" />
+  </ComplexType>
+  <EntityType Name="Shareholders_Total_Dividend_Paid">
+    <Key>
+      <PropertyRef Name="dividend_paid_id" />
+    </Key>
+    <Property Name="dividend_paid_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="share_id" Type="Int32" Nullable="false" />
+    <Property Name="dividend_id" Type="Int32" Nullable="false" />
+    <Property Name="total_dividend" Type="Decimal" Nullable="false" Precision="12" Scale="2" />
+    <Property Name="withdraw" Type="Decimal" Nullable="false" Precision="12" Scale="2" />
+    <Property Name="capitalized" Type="Decimal" Nullable="false" Precision="12" Scale="2" />
+    <Property Name="reference" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="transaction_status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="created_by" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="created_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="approved_by" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="approved_date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="AspNetUser" Relationship="ShareDB_V01Model.FK__Sharehold__appro__503BEA1C" FromRole="Shareholders_Total_Dividend_Paid" ToRole="AspNetUser" />
+    <NavigationProperty Name="AspNetUser1" Relationship="ShareDB_V01Model.FK__Sharehold__creat__4F47C5E3" FromRole="Shareholders_Total_Dividend_Paid" ToRole="AspNetUser" />
+    <NavigationProperty Name="Dividend_Info" Relationship="ShareDB_V01Model.FK__Sharehold__divid__51300E55" FromRole="Shareholders_Total_Dividend_Paid" ToRole="Dividend_Info" />
+    <NavigationProperty Name="Shareholder" Relationship="ShareDB_V01Model.FK__Sharehold__share__5224328E" FromRole="Shareholders_Total_Dividend_Paid" ToRole="Shareholder" />
+    <Property Name="is_taxed" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK__Sharehold__appro__503BEA1C">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="0..1" />
+    <End Type="ShareDB_V01Model.Shareholders_Total_Dividend_Paid" Role="Shareholders_Total_Dividend_Paid" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Shareholders_Total_Dividend_Paid">
+        <PropertyRef Name="approved_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sharehold__creat__4F47C5E3">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="0..1" />
+    <End Type="ShareDB_V01Model.Shareholders_Total_Dividend_Paid" Role="Shareholders_Total_Dividend_Paid" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Shareholders_Total_Dividend_Paid">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sharehold__divid__51300E55">
+    <End Type="ShareDB_V01Model.Dividend_Info" Role="Dividend_Info" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Shareholders_Total_Dividend_Paid" Role="Shareholders_Total_Dividend_Paid" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dividend_Info">
+        <PropertyRef Name="dividend_info_id" />
+      </Principal>
+      <Dependent Role="Shareholders_Total_Dividend_Paid">
+        <PropertyRef Name="dividend_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sharehold__share__5224328E">
+    <End Type="ShareDB_V01Model.Shareholder" Role="Shareholder" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Shareholders_Total_Dividend_Paid" Role="Shareholders_Total_Dividend_Paid" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Shareholders_Total_Dividend_Paid">
+        <PropertyRef Name="share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Candidate">
+    <Key>
+      <PropertyRef Name="canidate_id" />
+    </Key>
+    <Property Name="canidate_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="election_id" Type="Int32" Nullable="false" />
+    <Property Name="candidate_share_id" Type="Int32" Nullable="false" />
+    <Property Name="candidate_share_value" Type="Int32" Nullable="false" />
+    <Property Name="shareholder_inflouncial_status" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Shareholder" Relationship="ShareDB_V01Model.FK__Candidate__candi__2334397B" FromRole="Candidate" ToRole="Shareholder" />
+    <NavigationProperty Name="Election" Relationship="ShareDB_V01Model.FK__Candidate__elect__22401542" FromRole="Candidate" ToRole="Election" />
+    <NavigationProperty Name="Votes" Relationship="ShareDB_V01Model.FK__Vote__candidate___2610A626" FromRole="Candidate" ToRole="Vote" />
+  </EntityType>
+  <EntityType Name="Election">
+    <Key>
+      <PropertyRef Name="election_id" />
+    </Key>
+    <Property Name="election_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="general_assembly_id" Type="Int32" Nullable="false" />
+    <Property Name="election_type" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="number_of_candidate" Type="Int32" Nullable="false" />
+    <Property Name="number_of_member" Type="Int32" Nullable="false" />
+    <Property Name="election_created_by" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="created_date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="AspNetUser" Relationship="ShareDB_V01Model.FK__Election__electi__1E6F845E" FromRole="Election" ToRole="AspNetUser" />
+    <NavigationProperty Name="Candidates" Relationship="ShareDB_V01Model.FK__Candidate__elect__22401542" FromRole="Election" ToRole="Candidate" />
+    <NavigationProperty Name="general_assembly" Relationship="ShareDB_V01Model.FK__Election__genera__1F63A897" FromRole="Election" ToRole="general_assembly" />
+    <NavigationProperty Name="Votes" Relationship="ShareDB_V01Model.FK__Vote__vote_elect__2704CA5F" FromRole="Election" ToRole="Vote" />
+  </EntityType>
+  <EntityType Name="general_assembly">
+    <Key>
+      <PropertyRef Name="general_assembly_id" />
+    </Key>
+    <Property Name="general_assembly_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="meeting_type" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="meeting_number" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="meeting_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="starting_time" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="ending_time" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="meeting_place" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="quorum" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="created_by" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="description" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="AspNetUser" Relationship="ShareDB_V01Model.FK__general_a__creat__1B9317B3" FromRole="general_assembly" ToRole="AspNetUser" />
+    <NavigationProperty Name="Elections" Relationship="ShareDB_V01Model.FK__Election__genera__1F63A897" FromRole="general_assembly" ToRole="Election" />
+  </EntityType>
+  <EntityType Name="Vote">
+    <Key>
+      <PropertyRef Name="vote_id" />
+    </Key>
+    <Property Name="vote_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vote_election_id" Type="Int32" Nullable="false" />
+    <Property Name="voter_share_id" Type="Int32" Nullable="false" />
+    <Property Name="candidate_id" Type="Int32" Nullable="false" />
+    <Property Name="total_vote_value" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <NavigationProperty Name="Candidate" Relationship="ShareDB_V01Model.FK__Vote__candidate___2610A626" FromRole="Vote" ToRole="Candidate" />
+    <NavigationProperty Name="Election" Relationship="ShareDB_V01Model.FK__Vote__vote_elect__2704CA5F" FromRole="Vote" ToRole="Election" />
+    <NavigationProperty Name="Shareholder" Relationship="ShareDB_V01Model.FK__Vote__voter_shar__27F8EE98" FromRole="Vote" ToRole="Shareholder" />
+  </EntityType>
+  <Association Name="FK__Election__electi__1E6F845E">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Election" Role="Election" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Election">
+        <PropertyRef Name="election_created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__general_a__creat__1B9317B3">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.general_assembly" Role="general_assembly" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="general_assembly">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Candidate__candi__2334397B">
+    <End Type="ShareDB_V01Model.Shareholder" Role="Shareholder" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Candidate" Role="Candidate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Candidate">
+        <PropertyRef Name="candidate_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Candidate__elect__22401542">
+    <End Type="ShareDB_V01Model.Election" Role="Election" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ShareDB_V01Model.Candidate" Role="Candidate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Election">
+        <PropertyRef Name="election_id" />
+      </Principal>
+      <Dependent Role="Candidate">
+        <PropertyRef Name="election_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Vote__candidate___2610A626">
+    <End Type="ShareDB_V01Model.Candidate" Role="Candidate" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Vote" Role="Vote" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Candidate">
+        <PropertyRef Name="canidate_id" />
+      </Principal>
+      <Dependent Role="Vote">
+        <PropertyRef Name="candidate_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Election__genera__1F63A897">
+    <End Type="ShareDB_V01Model.general_assembly" Role="general_assembly" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Election" Role="Election" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="general_assembly">
+        <PropertyRef Name="general_assembly_id" />
+      </Principal>
+      <Dependent Role="Election">
+        <PropertyRef Name="general_assembly_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Vote__vote_elect__2704CA5F">
+    <End Type="ShareDB_V01Model.Election" Role="Election" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ShareDB_V01Model.Vote" Role="Vote" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Election">
+        <PropertyRef Name="election_id" />
+      </Principal>
+      <Dependent Role="Vote">
+        <PropertyRef Name="vote_election_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Vote__voter_shar__27F8EE98">
+    <End Type="ShareDB_V01Model.Shareholder" Role="Shareholder" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Vote" Role="Vote" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Vote">
+        <PropertyRef Name="voter_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Candidate_Shareholders">
+    <Key>
+      <PropertyRef Name="election_type" />
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="election_type" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="share_id" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="share_name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="share_amharic" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Balance" Type="Int32" />
+    <Property Name="Influential_status" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Election_Result">
+    <Key>
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="Rank" Type="Int64" />
+    <Property Name="share_id" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="share_name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="share_amharic" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Number_of_Votters" Type="Int32" />
+    <Property Name="Total_Subscription_Vote" Type="Int32" />
+    <Property Name="C_score" Type="Decimal" Precision="27" Scale="13" />
+  </EntityType>
+  <EntityType Name="Election_Vote_Result">
+    <Key>
+      <PropertyRef Name="share_name" />
+    </Key>
+    <Property Name="Rank" Type="Int32" />
+    <Property Name="share_id" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="share_name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="share_amharic" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Number_of_Votters" Type="Int32" />
+    <Property Name="Total_Subscription_Vote" Type="Int32" />
+    <Property Name="C_score" Type="Decimal" Precision="27" Scale="13" />
+  </EntityType>
+  <EntityType Name="Election_Vote_Result_2">
+    <Key>
+      <PropertyRef Name="share_name" />
+    </Key>
+    <Property Name="Rank" Type="Int32" />
+    <Property Name="share_id" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="share_name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="share_amharic" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Number_of_Votters" Type="Int32" />
+    <Property Name="Total_Subscription_Vote" Type="Int32" />
+    <Property Name="C_score" Type="Decimal" Precision="27" Scale="13" />
+  </EntityType>
+  <EntityType Name="Non_Influential_Vote_Result">
+    <Key>
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="share_id" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="share_name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="share_amharic" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Number_of_Votters" Type="Int32" />
+    <Property Name="Total_Subscription_Vote" Type="Int32" />
+    <Property Name="C_score" Type="Decimal" Precision="27" Scale="13" />
+    <Property Name="Rank" Type="Int64" />
+  </EntityType>
+  <EntityType Name="Vote_Result">
+    <Key>
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="share_id" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="share_name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="share_amharic" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Number_of_Votters" Type="Int32" />
+    <Property Name="Total_Subscription_Vote" Type="Int32" />
+    <Property Name="C_score" Type="Decimal" Precision="27" Scale="13" />
+    <Property Name="Rank" Type="Int64" />
+  </EntityType>
+  <EntityType Name="Top_10_Unpaid_Shareholders">
+    <Key>
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="share_id" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="share_name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="share_amharic" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Total_Share" Type="Int32" />
+    <Property Name="Total_Paid" Type="Decimal" Precision="38" Scale="2" />
+    <Property Name="Unpaid" Type="Decimal" Precision="38" Scale="2" />
+  </EntityType>
+  <EntityType Name="Transaction_History">
+    <Key>
+      <PropertyRef Name="trans_history_id" />
+    </Key>
+    <Property Name="trans_history_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="histroy_share_id" Type="Int32" Nullable="false" />
+    <Property Name="history_subscription_id" Type="Int32" Nullable="false" />
+    <Property Name="budget_year_id" Type="Int32" Nullable="false" />
+    <Property Name="Credit" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Debit" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Weighted" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="trans_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="trans_status" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="transaction_type" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Is_reversed" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="created_by" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="created_date" Type="DateTime" Precision="0" />
+    <Property Name="approved_by" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="approved_date" Type="DateTime" Precision="0" />
+    <Property Name="reason" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="AspNetUser" Relationship="ShareDB_V01Model.FK__Transacti__appro__56B3DD81" FromRole="Transaction_History" ToRole="AspNetUser" />
+    <NavigationProperty Name="AspNetUser1" Relationship="ShareDB_V01Model.FK__Transacti__creat__55BFB948" FromRole="Transaction_History" ToRole="AspNetUser" />
+    <NavigationProperty Name="budget_year" Relationship="ShareDB_V01Model.FK__Transacti__budge__57A801BA" FromRole="Transaction_History" ToRole="budget_year" />
+    <NavigationProperty Name="Shareholder" Relationship="ShareDB_V01Model.FK__Transacti__histr__589C25F3" FromRole="Transaction_History" ToRole="Shareholder" />
+    <NavigationProperty Name="Subscription" Relationship="ShareDB_V01Model.FK__Transacti__histo__54CB950F" FromRole="Transaction_History" ToRole="Subscription" />
+  </EntityType>
+  <Association Name="FK__Transacti__appro__56B3DD81">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="0..1" />
+    <End Type="ShareDB_V01Model.Transaction_History" Role="Transaction_History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction_History">
+        <PropertyRef Name="approved_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__creat__55BFB948">
+    <End Type="ShareDB_V01Model.AspNetUser" Role="AspNetUser" Multiplicity="0..1" />
+    <End Type="ShareDB_V01Model.Transaction_History" Role="Transaction_History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUser">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction_History">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__budge__57A801BA">
+    <End Type="ShareDB_V01Model.budget_year" Role="budget_year" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Transaction_History" Role="Transaction_History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="budget_year">
+        <PropertyRef Name="budget_year_id" />
+      </Principal>
+      <Dependent Role="Transaction_History">
+        <PropertyRef Name="budget_year_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__histr__589C25F3">
+    <End Type="ShareDB_V01Model.Shareholder" Role="Shareholder" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Transaction_History" Role="Transaction_History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction_History">
+        <PropertyRef Name="histroy_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__histo__54CB950F">
+    <End Type="ShareDB_V01Model.Subscription" Role="Subscription" Multiplicity="1" />
+    <End Type="ShareDB_V01Model.Transaction_History" Role="Transaction_History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subscription">
+        <PropertyRef Name="subscription_id" />
+      </Principal>
+      <Dependent Role="Transaction_History">
+        <PropertyRef Name="history_subscription_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Unpaid_With_First_Payment_date">
+    <Key>
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="share_id" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="share_name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="share_amharic" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Total_Share" Type="Int32" />
+    <Property Name="First_Payment_Date" Type="DateTime" Precision="0" />
+    <Property Name="Total_Paid" Type="Decimal" Precision="38" Scale="2" />
+    <Property Name="Unpaid" Type="Decimal" Precision="38" Scale="2" />
+  </EntityType>
+  <EntityType Name="TOP_10_Subscribers">
+    <Key>
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="share_id" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="share_name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="share_amharic" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Total_Share" Type="Int32" />
+    <Property Name="First_Payment_Date" Type="DateTime" Precision="0" />
+    <Property Name="Total_Paid" Type="Decimal" Precision="38" Scale="2" />
+    <Property Name="Unpaid" Type="Decimal" Precision="38" Scale="2" />
+    <Property Name="Rank" Type="Int64" />
+  </EntityType>
+</Schema>

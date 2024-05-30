@@ -1,0 +1,109 @@
+﻿
+@model ShareSysProd.Models.DocumentationDetailsViewModel
+
+@{
+    ViewBag.Title = "Documentation Details";
+}
+
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<link href="~/Content/assets/global/plugins/datatables/datatables.min.css" rel="stylesheet" type="text/css" />
+<link href="~/Content/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="~/Content/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" />
+<!-- END PAGE LEVEL PLUGINS -->
+<link href="~/Content/assets/global/plugins/bootstrap-sweetalert/sweetalert.css" rel="stylesheet" type="text/css" />
+<div class="page-content-wrapper">
+    <!-- BEGIN CONTENT BODY -->
+    <div class="page-content">
+
+        <h2>
+            @if (TempData["message"] != null)
+            {
+                <span class="custom-alerts alert alert-success fade in" id="flash-msg">
+                    <i class="fa-lg fa fa-bell"></i>
+                    @TempData["message"]
+                </span>
+            }
+        </h2>
+        <div class="m-heading-1 border-green m-bordered">
+
+            <a class="btn red btn-outline sbold" data-toggle="modal" href="@Url.Action("CreateUser", "Admin")">
+                Add New System User
+            </a>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                <div class="portlet light ">
+                    <div class="portlet-title">
+                        <div class="caption font-dark">
+                            <i class="icon-settings font-dark"></i>
+                            <span class="caption-subject bold uppercase">All Users With Their Role</span>
+                        </div>
+                        <div class="tools">
+
+                        </div>
+                    </div>
+
+                    <div class="portlet-body">
+                        <div>
+                            <h3>Basic Information</h3>
+                            <p><strong>CIF:</strong> @Model.CIF</p>
+                            <p><strong>Mobile:</strong> @Model.Mobile</p>
+                            <p><strong>Branch:</strong> @Model.Branch</p>
+                            <p><strong>Status:</strong> @Model.Status</p>
+                            <p><strong>Reason:</strong> @Model.Reason</p>
+                        </div>
+
+                        <div>
+                            <h3>Documents</h3>
+                            @foreach (var doc in Model.Documents)
+                            {
+                                if (Model.CustomerType == "Individual")
+                                {
+                                    <p>
+                                        <strong>@doc.DocumentTypeName:</strong>
+                                        <a href="#" title="View Document" onmouseover="tooltip.pop(this, '#doc@(doc.DocumentId)')">
+                                            View Document
+                                        </a>
+                                        <div style="display:none;" id="doc@(doc.DocumentId)">
+                                            <img src="@Url.Content("~/App_Data/uploads/" + Path.GetFileName(doc.FileLocation))" alt="Document" />
+                                        </div>
+                                    </p>
+                                }
+                                else
+                                {
+                        <p>
+                            <strong>@doc.DocumentTypeName:</strong>
+                            <a href="@Url.Action("DownloadDocument", "Documentations", new { fileName = Path.GetFileName(doc.FileLocation) })" target="_blank">Download</a>
+                        </p>
+                                }
+                            }
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+@*<div class="panel-footer">
+        <p class="box-title"><b>Total Users till @String.Format("{0 : dddd, MMMM d, yyyy}", DateTime.Now)  : </b><span class="label label-primary">@Model.Count()</span></p>
+    </div>*@
+<script src="~/Content/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="~/Content/assets/global/plugins/bootstrap-sweetalert/sweetalert.min.js" type="text/javascript"></script>
+
+<script src="~/Content/assets/global/scripts/datatable.js" type="text/javascript"></script>
+<script src="~/Content/assets/global/plugins/datatables/datatables.min.js" type="text/javascript"></script>
+<script src="~/Content/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js" type="text/javascript"></script>
+<script src="~/Content/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="~/Content/assets/pages/scripts/table-datatables-buttons.min.js" type="text/javascript"></script>
+
+<script>
+
+    $('#sample_1').dataTable({
+    });
+</script>
+

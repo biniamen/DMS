@@ -1,0 +1,309 @@
+﻿<!-- SideBar -->
+@using Microsoft.AspNet.Identity
+
+<ul class="page-sidebar-menu  page-header-fixed page-sidebar-menu-hover-submenu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+    <li class="nav-item start active open">
+        <a href="~/Home/Index" class="nav-link nav-toggle">
+            <i class="icon-home"></i>
+            <span class="title">Dashboard</span>
+            <span class="selected"></span>
+
+        </a>
+
+    </li>
+    <!-- <li class="nav-item  ">
+        <a href="javascript:;" class="nav-link nav-toggle">
+            <i class="icon-diamond"></i>
+            <span class="title">UI Features</span>
+            <span class="arrow"></span>
+        </a>
+        <ul class="sub-menu">
+            <li class="nav-item  ">
+                <a href="ui_colors.html" class="nav-link ">
+                    <span class="title">Color Library</span>
+                </a>
+            </li>
+
+
+
+        </ul>
+    </li>-->
+    @if (User.IsInRole("Admin"))
+    {
+        <li class="nav-item  ">
+            <a href="javascript:;" class="nav-link nav-toggle">
+                <i class=" icon-wrench"></i>
+                <span class="title">Administrative Tools</span>
+                <span class="arrow"></span>
+            </a>
+            <ul class="sub-menu">
+                <li class="nav-item  ">
+                    <a href="~/Admin/UsersWithRoles" class="nav-link ">
+                        <span class="title">Manage User</span>
+                    </a>
+                </li>
+                @*<li class="nav-item  ">
+            <a href="~/Admin/CreateBranches_Users" class="nav-link ">
+                <span class="title">Create Branch User</span>
+            </a>
+        </li>*@
+                <li class="nav-item  ">
+                    <a href="~/AspNetRoles" class="nav-link ">
+                        <span class="title">Manage Role</span>
+                    </a>
+                </li>
+                <li class="nav-item  ">
+                    <a href="~/Admin/AssignRole" class="nav-link ">
+                        <span class="title">Assign Role</span>
+                    </a>
+                </li>
+                <li class="nav-item  ">
+                    <a href="~/Branches_and_Department" class="nav-link ">
+                        <span class="title">Branches/Department</span>
+                    </a>
+                </li>
+                <li class="nav-item  ">
+                    <a href="~/DocumentTypes" class="nav-link ">
+                        <span class="title">Define Document Type</span>
+                    </a>
+                </li>
+                <li class="nav-item  ">
+                    <a href="~/Categories_Type" class="nav-link ">
+                        <span class="title">Define Customer Category</span>
+                    </a>
+                </li>
+                <li class="nav-item  ">
+                    <a href="~/DocumentMaps" class="nav-link ">
+                        <span class="title">Document Mapping</span>
+                    </a>
+                </li>
+
+            </ul>
+        </li>
+
+    }
+    <li class="nav-item  ">
+        <a href="javascript:;" class="nav-link nav-toggle">
+            <i class="icon-book-open"></i>
+            <span class="title">Documentation Process</span>
+            <span class="arrow"</span>
+        </a>
+        <ul class="sub-menu">
+            @if (User.IsInRole("Maker"))
+            {
+                <li class="nav-item  ">
+                    <a href="@Url.Action("Create", "Risk_Event_Master_Book", new { user_branch = @User.Identity.GetUserName() })" class="nav-link ">
+                        <i class="icon-user"></i>
+
+                        <span class="title">Sample</span>
+                    </a>
+                </li>
+            }
+          
+
+
+            <li class="nav-item  ">
+                <a href="~/Documentations/Index" class="nav-link ">
+                    @*<a href="@Url.Action("Update_Pending_Risk", "Risk_Event_Master_Book", new { user_branch = @User.Identity.GetUserName() })" class="nav-link ">*@
+                    <i class="icon-magnifier"></i>
+                    <span class="title">Process Document</span>
+                </a>
+            </li>
+            <li class="nav-item  ">
+                <a href="~/Documents/Index" class="nav-link ">
+                    <i class="icon-magnifier"></i>
+                    <span class="title">Upload Document</span>
+                </a>
+            </li>
+            <li class="nav-item  ">
+                <a href="~/Risk_Event_Master_Book/Approved_Risk" class="nav-link ">
+                    @*<a href="@Url.Action("Approved_Risk", "Risk_Event_Master_Book", new { user_branch = @User.Identity.GetUserName() })" class="nav-link ">*@
+                    <i class="icon-magnifier"></i>
+                    <span class="title">Approved Risk Event</span>
+                </a>
+            </li>
+            <li class="nav-item  ">
+                <a href="@Url.Action("Rejected_Risk_list", "Risk_Event_Master_Book", new { user_branch = @Convert.ToString(Session["FullName"]) })" class="nav-link ">
+                    <i class="icon-magnifier"></i>
+                    <span class="title">Rejected Risk Event</span>
+                </a>
+            </li>
+            @if (User.IsInRole("Admin"))
+            {
+                <li class="nav-item  ">
+                    <a href="~/Risk_Event_Master_Book/" class="nav-link ">
+                        <i class="icon-magnifier"></i>
+                        <span class="title">All Risk Event</span>
+                    </a>
+                </li>
+
+            }
+
+
+            @*<li class="nav-item  ">
+                    <a href="~/Shareholders/" class="nav-link ">
+                        <i class="icon-users"></i>
+                        <span class="title">All Shareholder</span>
+                    </a>
+                </li>
+                <li class="nav-item  ">
+                    <a href="~/Blocked_List/" class="nav-link ">
+                        <i class="icon-users"></i>
+                        <span class="title">Blocked Shareholders</span>
+                    </a>
+                </li>
+                <li class="nav-item  ">
+                    <a href="~/Blocked_List/All_Blocked_Released" class="nav-link ">
+                        <i class="icon-users"></i>
+                        <span class="title">Blocked History</span>
+                    </a>
+                </li>*@
+
+            @*<li class="nav-item  ">
+                    <a href="~/Shareholders/Decide_Infountial" class="nav-link ">
+                        <i class="icon-users"></i>
+                        <span class="title">Test </span>
+                    </a>
+                </li>*@
+
+        </ul>
+    </li>
+
+    @if (Request.IsAuthenticated)
+    {
+
+        <li class="nav-item  ">
+            <a href="javascript:;" class="nav-link nav-toggle">
+                <i class=" icon-wrench"></i>
+                <span class="title">Reports</span>
+                <span class="arrow"></span>
+            </a>
+            @if (User.IsInRole("Admin"))
+            {
+                <ul class="sub-menu">
+                    <li class="nav-item  ">
+                        <a href="~/Report/Potential_Risk_Report_Export" target="_blank" class="nav-link ">
+                            <span class="title">Potential Risk PDF</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="~/Report/Risk_Report_By_Date" target="_blank" class="nav-link ">
+                            <span class="title">Report By Date PDF</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="~/Report/Risk_Report_By_Branch" target="_blank" class="nav-link ">
+                            <span class="title">Report By Branch PDF</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="~/Report/Quarterly_Risk_Report_By_Date" target="_blank" class="nav-link ">
+                            <span class="title">Quarterly Report PDF</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="~/Report/Report_By_branch_status_date_for_pdf" target="_blank" class="nav-link ">
+                            <span class="title">Report By Status,Date Branch PDF</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="~/Report/All_Risk_Report_Export" target="_blank" class="nav-link ">
+                            <span class="title">All Risk Event Report </span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="~/Report/Report_By_Risk_Status" target="_blank" class="nav-link ">
+                            <span class="title">Report By Risk Status PDF</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="~/Report/Report_By_Date_view" target="_blank" class="nav-link ">
+                            <span class="title">Report By Date View</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item  ">
+                        <a href="~/Report/Report_By_branch_view" target="_blank" class="nav-link ">
+                            <span class="title">Report By Branch View</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="~/Report/Report_By_status_view" target="_blank" class="nav-link ">
+                            <span class="title">Report By Status View</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a href="~/Report/Report_By_branch_status_date_form_view" target="_blank" class="nav-link ">
+                            <span class="title">Report By Status, Date, Branch</span>
+                        </a>
+                    </li>
+
+
+
+
+                </ul>
+            }
+        </li>
+    }
+    }
+
+
+
+    @*@if (User.IsInRole("Checker") || User.IsInRole("Maker"))
+        {*@
+
+
+    @if (User.IsInRole("Maker") || User.IsInRole("Checker") || User.IsInRole("Admin"))
+    {
+        <li class="nav-item  ">
+            <a href="javascript:;" class="nav-link nav-toggle">
+                <i class=" icon-wrench"></i>
+                <span class="title">Branch Report</span>
+                <span class="arrow"></span>
+            </a>
+            <ul class="sub-menu">
+                <li class="nav-item  ">
+                    <a href="~/Report/Branch_Report_By_status_and_date_form" class="nav-link ">
+                        <span class="title">Generate Report</span>
+                    </a>
+                </li>
+                @*<li class="nav-item  ">
+                        <a href="~/Admin/CreateBranches_Users" class="nav-link ">
+                            <span class="title">Create Branch User</span>
+                        </a>
+                    </li>*@
+
+
+
+            </ul>
+        </li>
+
+    }
+    @if (User.IsInRole("Admin") && User.IsInRole("SuperAdmin"))
+    {
+        <li class="nav-item start active open">
+
+            <a href="~/Suspicious_transaction_individual/Index" class="nav-link nav-toggle">
+                <i class="icon-fire"></i>
+                <span class="title">Suspicious Transaction</span>
+                <span class="selected"></span>
+
+            </a>
+        </li>
+
+
+    }
+    @if (!Request.IsAuthenticated)
+    {
+        <li class="nav-item start active open">
+
+            <a href="~/Suspicious_transaction_individual/Create" class="nav-link nav-toggle">
+                <i class="icon-fire"></i>
+                <span class="title">Report Suspicious Transaction</span>
+                <span class="selected"></span>
+
+            </a>
+        </li>
+    }
+    </ul>
+

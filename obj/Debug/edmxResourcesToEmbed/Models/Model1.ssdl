@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RiskEventDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ClaimType" Type="nvarchar(max)" />
+    <Property Name="ClaimValue" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Branches_and_Department">
+    <Key>
+      <PropertyRef Name="branch_id" />
+    </Key>
+    <Property Name="branch_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Branch_department_Code" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Branch_department_name" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KRI">
+    <Key>
+      <PropertyRef Name="kri_id" />
+    </Key>
+    <Property Name="kri_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KRI_Name" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KRI_SELECTED">
+    <Key>
+      <PropertyRef Name="s_kri_id" />
+    </Key>
+    <Property Name="s_kri_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="slected_kri_id" Type="int" Nullable="false" />
+    <Property Name="event_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Level_of_Inherent_Risk_Frequency">
+    <Key>
+      <PropertyRef Name="risk_frequency_id" />
+    </Key>
+    <Property Name="risk_frequency_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Risk_of_frequency" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Value" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Level_of_Inherent_Risk_Impact">
+    <Key>
+      <PropertyRef Name="risk_impact_id" />
+    </Key>
+    <Property Name="risk_impact_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Risk_of_impact" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Impact_Value" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Risk_Event_Master_Book">
+    <Key>
+      <PropertyRef Name="master_book_id" />
+    </Key>
+    <Property Name="master_book_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="branch_name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="date_of_operation_commenced" Type="date" />
+    <Property Name="date_of_risk_event_occured" Type="date" Nullable="false" />
+    <Property Name="date_of_risk_event_identified" Type="date" Nullable="false" />
+    <Property Name="RIF" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="risk_area" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Risk_Event_subcategory_id" Type="int" Nullable="false" />
+    <Property Name="Risk_Description" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="level_of_risk_frequency" Type="int" Nullable="false" />
+    <Property Name="level_of_risk_impact" Type="int" Nullable="false" />
+    <Property Name="risk_rating" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="root_cause" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Existing_mitigation_control" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Proposed_mitigation_control" Type="varchar" MaxLength="255" />
+    <Property Name="Risk_Owner" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Risk_Owner_2" Type="varchar" MaxLength="100" />
+    <Property Name="Risk_Owner_3" Type="varchar" MaxLength="100" />
+    <Property Name="Risk_Owner_4" Type="varchar" MaxLength="100" />
+    <Property Name="Key_Risk_Indicators" Type="varchar" MaxLength="255" />
+    <Property Name="Financial" Type="varchar" MaxLength="100" />
+    <Property Name="People(Human Resource)" Type="varchar" MaxLength="100" />
+    <Property Name="Operational" Type="varchar" MaxLength="100" />
+    <Property Name="Facility" Type="varchar" MaxLength="100" />
+    <Property Name="System " Type="varchar" MaxLength="100" />
+    <Property Name="Others" Type="varchar" MaxLength="100" />
+    <Property Name="Other_specified" Type="varchar" MaxLength="255" />
+    <Property Name="Status_resolved" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="date_of_resolved" Type="date" />
+    <Property Name="Status_Follow-Up_by_risk_owner" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Effort_exerted_to_resolve_risk" Type="varchar" MaxLength="255" />
+    <Property Name="Transferred_to_legal_department" Type="varchar" MaxLength="100" />
+    <Property Name="transferred_to_legal_date" Type="date" />
+    <Property Name="Transferred_Decipline_Committe" Type="varchar" MaxLength="100" />
+    <Property Name="Transferred_to_decipline_date" Type="date" />
+    <Property Name="Is_Existing" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Is_there_Cost_of_proposed_action" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Cost_of_action" Type="varchar" MaxLength="100" />
+    <Property Name="Exact_Cost" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="created_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="edited_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="created_date" Type="date" />
+    <Property Name="approved_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="approved_date" Type="date" />
+    <Property Name="Status" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Supporting_document" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Risk_Event_Subscategory">
+    <Key>
+      <PropertyRef Name="Risk_Event_id" />
+    </Key>
+    <Property Name="Risk_Event_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Risk_Event_desc" Type="varchar" MaxLength="400" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Risk_Rating">
+    <Key>
+      <PropertyRef Name="risk_rating_id" />
+    </Key>
+    <Property Name="risk_rating_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Risk_Rating" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Rating_Value" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Transaction_Log">
+    <Key>
+      <PropertyRef Name="log_id" />
+    </Key>
+    <Property Name="log_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="event_id" Type="int" Nullable="false" />
+    <Property Name="branch_name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="date_of_operation_commenced" Type="date" />
+    <Property Name="date_of_risk_event_occured" Type="date" Nullable="false" />
+    <Property Name="date_of_risk_event_identified" Type="date" Nullable="false" />
+    <Property Name="RIF" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="risk_area" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Risk_Event_subcategory_id" Type="int" Nullable="false" />
+    <Property Name="Risk_Description" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="level_of_risk_frequency" Type="int" Nullable="false" />
+    <Property Name="level_of_risk_impact" Type="int" Nullable="false" />
+    <Property Name="risk_rating" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="root_cause" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Existing_mitigation_control" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Proposed_mitigation_control" Type="varchar" MaxLength="255" />
+    <Property Name="Risk_Owner" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Risk_Owner_2" Type="varchar" MaxLength="100" />
+    <Property Name="Risk_Owner_3" Type="varchar" MaxLength="100" />
+    <Property Name="Risk_Owner_4" Type="varchar" MaxLength="100" />
+    <Property Name="Key_Risk_Indicators" Type="varchar" MaxLength="255" />
+    <Property Name="Financial" Type="varchar" MaxLength="100" />
+    <Property Name="People(Human Resource)" Type="varchar" MaxLength="100" />
+    <Property Name="Operational" Type="varchar" MaxLength="100" />
+    <Property Name="Facility" Type="varchar" MaxLength="100" />
+    <Property Name="System " Type="varchar" MaxLength="100" />
+    <Property Name="Others" Type="varchar" MaxLength="100" />
+    <Property Name="Other_specified" Type="varchar" MaxLength="255" />
+    <Property Name="Status_resolved" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="date_of_resolved" Type="date" />
+    <Property Name="Status_Follow-Up_by_risk_owner" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Effort_exerted_to_resolve_risk" Type="varchar" MaxLength="255" />
+    <Property Name="Transferred_to_legal_department" Type="varchar" MaxLength="100" />
+    <Property Name="transferred_to_legal_date" Type="date" />
+    <Property Name="Transferred_Decipline_Committe" Type="varchar" MaxLength="100" />
+    <Property Name="Transferred_to_decipline_date" Type="date" />
+    <Property Name="Is_Existing" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Is_there_Cost_of_proposed_action" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Cost_of_action" Type="varchar" MaxLength="100" />
+    <Property Name="Exact_Cost" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="created_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="edited_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="created_date" Type="date" />
+    <Property Name="approved_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="approved_date" Type="date" />
+    <Property Name="Status" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Supporting_document" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK__KRI_SELEC__slect__6ABAD62E">
+    <End Role="KRI" Type="Self.KRI" Multiplicity="1" />
+    <End Role="KRI_SELECTED" Type="Self.KRI_SELECTED" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KRI">
+        <PropertyRef Name="kri_id" />
+      </Principal>
+      <Dependent Role="KRI_SELECTED">
+        <PropertyRef Name="slected_kri_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Risk_Even__creat__2882FE7D">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Risk_Event_Master_Book" Type="Self.Risk_Event_Master_Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Risk_Event_Master_Book">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Risk_Even__edite__297722B6">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Risk_Event_Master_Book" Type="Self.Risk_Event_Master_Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Risk_Event_Master_Book">
+        <PropertyRef Name="edited_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Risk_Even__level__269AB60B">
+    <End Role="Level_of_Inherent_Risk_Frequency" Type="Self.Level_of_Inherent_Risk_Frequency" Multiplicity="1" />
+    <End Role="Risk_Event_Master_Book" Type="Self.Risk_Event_Master_Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Level_of_Inherent_Risk_Frequency">
+        <PropertyRef Name="risk_frequency_id" />
+      </Principal>
+      <Dependent Role="Risk_Event_Master_Book">
+        <PropertyRef Name="level_of_risk_frequency" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Risk_Even__level__278EDA44">
+    <End Role="Level_of_Inherent_Risk_Impact" Type="Self.Level_of_Inherent_Risk_Impact" Multiplicity="1" />
+    <End Role="Risk_Event_Master_Book" Type="Self.Risk_Event_Master_Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Level_of_Inherent_Risk_Impact">
+        <PropertyRef Name="risk_impact_id" />
+      </Principal>
+      <Dependent Role="Risk_Event_Master_Book">
+        <PropertyRef Name="level_of_risk_impact" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Risk_Even__Risk___2A6B46EF">
+    <End Role="Risk_Event_Subscategory" Type="Self.Risk_Event_Subscategory" Multiplicity="1" />
+    <End Role="Risk_Event_Master_Book" Type="Self.Risk_Event_Master_Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Risk_Event_Subscategory">
+        <PropertyRef Name="Risk_Event_id" />
+      </Principal>
+      <Dependent Role="Risk_Event_Master_Book">
+        <PropertyRef Name="Risk_Event_subcategory_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__creat__2F2FFC0C">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Transaction_Log" Type="Self.Transaction_Log" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction_Log">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__edite__30242045">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Transaction_Log" Type="Self.Transaction_Log" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction_Log">
+        <PropertyRef Name="edited_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__level__2D47B39A">
+    <End Role="Level_of_Inherent_Risk_Frequency" Type="Self.Level_of_Inherent_Risk_Frequency" Multiplicity="1" />
+    <End Role="Transaction_Log" Type="Self.Transaction_Log" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Level_of_Inherent_Risk_Frequency">
+        <PropertyRef Name="risk_frequency_id" />
+      </Principal>
+      <Dependent Role="Transaction_Log">
+        <PropertyRef Name="level_of_risk_frequency" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__level__2E3BD7D3">
+    <End Role="Level_of_Inherent_Risk_Impact" Type="Self.Level_of_Inherent_Risk_Impact" Multiplicity="1" />
+    <End Role="Transaction_Log" Type="Self.Transaction_Log" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Level_of_Inherent_Risk_Impact">
+        <PropertyRef Name="risk_impact_id" />
+      </Principal>
+      <Dependent Role="Transaction_Log">
+        <PropertyRef Name="level_of_risk_impact" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__Risk___3118447E">
+    <End Role="Risk_Event_Subscategory" Type="Self.Risk_Event_Subscategory" Multiplicity="1" />
+    <End Role="Transaction_Log" Type="Self.Transaction_Log" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Risk_Event_Subscategory">
+        <PropertyRef Name="Risk_Event_id" />
+      </Principal>
+      <Dependent Role="Transaction_Log">
+        <PropertyRef Name="Risk_Event_subcategory_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="DeleteUserfromRole" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="nvarchar" Mode="In" />
+    <Parameter Name="RoleId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Get_RoleByID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RoleId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Get_RoleByID2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="GetUsers_RoleByID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RoleId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="VoteResult" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="RiskEventDBModelStoreContainer">
+    <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Branches_and_Department" EntityType="Self.Branches_and_Department" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KRI" EntityType="Self.KRI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KRI_SELECTED" EntityType="Self.KRI_SELECTED" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Level_of_Inherent_Risk_Frequency" EntityType="Self.Level_of_Inherent_Risk_Frequency" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Level_of_Inherent_Risk_Impact" EntityType="Self.Level_of_Inherent_Risk_Impact" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Risk_Event_Master_Book" EntityType="Self.Risk_Event_Master_Book" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Risk_Event_Subscategory" EntityType="Self.Risk_Event_Subscategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Risk_Rating" EntityType="Self.Risk_Rating" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transaction_Log" EntityType="Self.Transaction_Log" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__KRI_SELEC__slect__6ABAD62E" Association="Self.FK__KRI_SELEC__slect__6ABAD62E">
+      <End Role="KRI" EntitySet="KRI" />
+      <End Role="KRI_SELECTED" EntitySet="KRI_SELECTED" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Risk_Even__creat__2882FE7D" Association="Self.FK__Risk_Even__creat__2882FE7D">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Risk_Event_Master_Book" EntitySet="Risk_Event_Master_Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Risk_Even__edite__297722B6" Association="Self.FK__Risk_Even__edite__297722B6">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Risk_Event_Master_Book" EntitySet="Risk_Event_Master_Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Risk_Even__level__269AB60B" Association="Self.FK__Risk_Even__level__269AB60B">
+      <End Role="Level_of_Inherent_Risk_Frequency" EntitySet="Level_of_Inherent_Risk_Frequency" />
+      <End Role="Risk_Event_Master_Book" EntitySet="Risk_Event_Master_Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Risk_Even__level__278EDA44" Association="Self.FK__Risk_Even__level__278EDA44">
+      <End Role="Level_of_Inherent_Risk_Impact" EntitySet="Level_of_Inherent_Risk_Impact" />
+      <End Role="Risk_Event_Master_Book" EntitySet="Risk_Event_Master_Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Risk_Even__Risk___2A6B46EF" Association="Self.FK__Risk_Even__Risk___2A6B46EF">
+      <End Role="Risk_Event_Subscategory" EntitySet="Risk_Event_Subscategory" />
+      <End Role="Risk_Event_Master_Book" EntitySet="Risk_Event_Master_Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__creat__2F2FFC0C" Association="Self.FK__Transacti__creat__2F2FFC0C">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Transaction_Log" EntitySet="Transaction_Log" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__edite__30242045" Association="Self.FK__Transacti__edite__30242045">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Transaction_Log" EntitySet="Transaction_Log" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__level__2D47B39A" Association="Self.FK__Transacti__level__2D47B39A">
+      <End Role="Level_of_Inherent_Risk_Frequency" EntitySet="Level_of_Inherent_Risk_Frequency" />
+      <End Role="Transaction_Log" EntitySet="Transaction_Log" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__level__2E3BD7D3" Association="Self.FK__Transacti__level__2E3BD7D3">
+      <End Role="Level_of_Inherent_Risk_Impact" EntitySet="Level_of_Inherent_Risk_Impact" />
+      <End Role="Transaction_Log" EntitySet="Transaction_Log" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__Risk___3118447E" Association="Self.FK__Transacti__Risk___3118447E">
+      <End Role="Risk_Event_Subscategory" EntitySet="Risk_Event_Subscategory" />
+      <End Role="Transaction_Log" EntitySet="Transaction_Log" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

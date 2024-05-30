@@ -1,0 +1,1257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ShareDB_V01Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Attendance">
+    <Key>
+      <PropertyRef Name="attendance_id" />
+    </Key>
+    <Property Name="attendance_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="general_assembly_id" Type="int" Nullable="false" />
+    <Property Name="attendant_share_id" Type="int" Nullable="false" />
+    <Property Name="total_subscription" Type="int" Nullable="false" />
+    <Property Name="taken_by" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="created_date" Type="date" />
+  </EntityType>
+  <EntityType Name="Blocked_List">
+    <Key>
+      <PropertyRef Name="blocked_id" />
+    </Key>
+    <Property Name="blocked_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="share_id" Type="int" Nullable="false" />
+    <Property Name="blocked_by" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="blocked_amount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="blocked_date" Type="date" />
+    <Property Name="released_date" Type="date" />
+    <Property Name="blocked_reason" Type="varchar" MaxLength="255" />
+    <Property Name="status" Type="varchar" MaxLength="50" />
+    <Property Name="blocked_by_user" Type="nvarchar" MaxLength="128" />
+    <Property Name="released_by" Type="nvarchar" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="budget_year">
+    <Key>
+      <PropertyRef Name="budget_year_id" />
+    </Key>
+    <Property Name="budget_year_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="budget_year" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="ethiopian_year" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="start_date" Type="date" Nullable="false" />
+    <Property Name="end_date" Type="date" Nullable="false" />
+    <Property Name="days_in_year" Type="int" Nullable="false" />
+    <Property Name="year_profit" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="status" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="Candidate">
+    <Key>
+      <PropertyRef Name="canidate_id" />
+    </Key>
+    <Property Name="canidate_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="election_id" Type="int" Nullable="false" />
+    <Property Name="candidate_share_id" Type="int" Nullable="false" />
+    <Property Name="candidate_share_value" Type="int" Nullable="false" />
+    <Property Name="shareholder_inflouncial_status" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Dividend_Disbursement">
+    <Key>
+      <PropertyRef Name="disbursment_id" />
+    </Key>
+    <Property Name="disbursment_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="share_id" Type="int" Nullable="false" />
+    <Property Name="payment_id" Type="int" Nullable="false" />
+    <Property Name="dividend_id" Type="int" Nullable="false" />
+    <Property Name="payment_weighted" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="dividend_amount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Withdraw_amount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="capitalized_amount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="status" Type="varchar" MaxLength="100" />
+    <Property Name="transaction_status" Type="varchar" MaxLength="100" />
+    <Property Name="reference_num" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Dividend_Info">
+    <Key>
+      <PropertyRef Name="dividend_info_id" />
+    </Key>
+    <Property Name="dividend_info_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="budget_year_id" Type="int" Nullable="false" />
+    <Property Name="total_weighted_balance " Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="dividend_payout_ratio" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="created_date" Type="date" Nullable="false" />
+    <Property Name="status" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Election">
+    <Key>
+      <PropertyRef Name="election_id" />
+    </Key>
+    <Property Name="election_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="general_assembly_id" Type="int" Nullable="false" />
+    <Property Name="election_type" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="number_of_candidate" Type="int" Nullable="false" />
+    <Property Name="number_of_member" Type="int" Nullable="false" />
+    <Property Name="election_created_by" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="created_date" Type="date" />
+  </EntityType>
+  <EntityType Name="general_assembly">
+    <Key>
+      <PropertyRef Name="general_assembly_id" />
+    </Key>
+    <Property Name="general_assembly_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="meeting_type" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="meeting_number" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="meeting_date" Type="date" Nullable="false" />
+    <Property Name="starting_time" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ending_time" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="meeting_place" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="quorum" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="created_by" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Meeting_Type">
+    <Key>
+      <PropertyRef Name="meeting_type_id" />
+    </Key>
+    <Property Name="meeting_type_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="meeting_type" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="meeting_agenda" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="created_by" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="created_date" Type="date" />
+  </EntityType>
+  <EntityType Name="serial">
+    <Key>
+      <PropertyRef Name="serial_id" />
+    </Key>
+    <Property Name="serial_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="serial_from" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="serial_to" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="num_share" Type="int" Nullable="false" />
+    <Property Name="status" Type="varchar" MaxLength="50" />
+    <Property Name="serial_share_id" Type="int" Nullable="false" />
+    <Property Name="subscription_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Shareholder">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="share_id" Type="varchar" MaxLength="5" StoreGeneratedPattern="Computed" />
+    <Property Name="share_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="share_amharic" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="phone_number" Type="int" Nullable="false" />
+    <Property Name="phone_number_2" Type="int" />
+    <Property Name="ownership_type" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="registration_date" Type="date" />
+    <Property Name="share_status" Type="varchar" MaxLength="30" />
+    <Property Name="Influential_status" Type="varchar" MaxLength="30" />
+    <Property Name="Nationality" Type="varchar" MaxLength="100" />
+    <Property Name="Country" Type="varchar" MaxLength="100" />
+    <Property Name="City" Type="varchar" MaxLength="100" />
+    <Property Name="Sub_sity" Type="varchar" MaxLength="100" />
+    <Property Name="Kebele" Type="int" />
+    <Property Name="House_no" Type="varchar" MaxLength="100" />
+    <Property Name="Identification_No" Type="varchar" MaxLength="100" />
+    <Property Name="Occupation" Type="varchar" MaxLength="100" />
+    <Property Name="POBox" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Shareholders_Total_Dividend_Paid">
+    <Key>
+      <PropertyRef Name="dividend_paid_id" />
+    </Key>
+    <Property Name="dividend_paid_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="share_id" Type="int" Nullable="false" />
+    <Property Name="dividend_id" Type="int" Nullable="false" />
+    <Property Name="total_dividend" Type="decimal" Precision="12" Scale="2" Nullable="false" />
+    <Property Name="withdraw" Type="decimal" Precision="12" Scale="2" Nullable="false" />
+    <Property Name="capitalized" Type="decimal" Precision="12" Scale="2" Nullable="false" />
+    <Property Name="reference" Type="varchar" MaxLength="255" />
+    <Property Name="status" Type="varchar" MaxLength="255" />
+    <Property Name="transaction_status" Type="varchar" MaxLength="255" />
+    <Property Name="created_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="created_date" Type="date" Nullable="false" />
+    <Property Name="approved_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="approved_date" Type="date" />
+    <Property Name="is_taxed" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Subscription">
+    <Key>
+      <PropertyRef Name="subscription_id" />
+    </Key>
+    <Property Name="subscription_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sub_share_id" Type="int" Nullable="false" />
+    <Property Name="number_of_share" Type="int" Nullable="false" />
+    <Property Name="subscription_fee" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="sub_date" Type="date" Nullable="false" />
+    <Property Name="sub_status" Type="varchar" MaxLength="30" />
+    <Property Name="subscription_mode" Type="varchar" MaxLength="30" />
+    <Property Name="Is_reversed" Type="int" />
+    <Property Name="created_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="created_date" Type="date" />
+    <Property Name="approved_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="approved_date" Type="date" />
+    <Property Name="reference" Type="varchar" MaxLength="255" />
+    <Property Name="remark" Type="varchar" MaxLength="255" />
+    <Property Name="Transferred_Share" Type="int" />
+  </EntityType>
+  <EntityType Name="System_Posting_Date">
+    <Key>
+      <PropertyRef Name="date_id" />
+    </Key>
+    <Property Name="date_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="posting_date" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Transaction">
+    <Key>
+      <PropertyRef Name="transction_id" />
+    </Key>
+    <Property Name="transction_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="trans_share_id" Type="int" Nullable="false" />
+    <Property Name="trans_subscription_id" Type="int" Nullable="false" />
+    <Property Name="budget_year_id" Type="int" Nullable="false" />
+    <Property Name="Credit" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Debit" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Weighted" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="trans_date" Type="date" Nullable="false" />
+    <Property Name="trans_status" Type="varchar" MaxLength="30" />
+    <Property Name="transaction_type" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Is_reversed" Type="varchar" MaxLength="30" />
+    <Property Name="created_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="created_date" Type="date" />
+    <Property Name="approved_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="approved_date" Type="date" />
+    <Property Name="reason" Type="varchar" MaxLength="255" />
+    <Property Name="remark" Type="varchar" MaxLength="255" />
+    <Property Name="reference_no" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Transaction_History">
+    <Key>
+      <PropertyRef Name="trans_history_id" />
+    </Key>
+    <Property Name="trans_history_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="histroy_share_id" Type="int" Nullable="false" />
+    <Property Name="history_subscription_id" Type="int" Nullable="false" />
+    <Property Name="budget_year_id" Type="int" Nullable="false" />
+    <Property Name="Credit" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Debit" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Weighted" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="trans_date" Type="date" Nullable="false" />
+    <Property Name="trans_status" Type="varchar" MaxLength="30" />
+    <Property Name="transaction_type" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Is_reversed" Type="varchar" MaxLength="30" />
+    <Property Name="created_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="created_date" Type="date" />
+    <Property Name="approved_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="approved_date" Type="date" />
+    <Property Name="reason" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Transfer">
+    <Key>
+      <PropertyRef Name="transfer_id" />
+    </Key>
+    <Property Name="transfer_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="transfer_from" Type="int" Nullable="false" />
+    <Property Name="transfer_to" Type="int" Nullable="false" />
+    <Property Name="payment_id" Type="int" Nullable="false" />
+    <Property Name="transfer_amount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Amount_to_deduct" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="transfer_type" Type="varchar" MaxLength="100" />
+    <Property Name="transfer_fee" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="transfer_date" Type="date" Nullable="false" />
+    <Property Name="transfer_mode" Type="varchar" MaxLength="30" />
+    <Property Name="status" Type="varchar" MaxLength="30" />
+    <Property Name="referrence_num" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="transfer_reason" Type="varchar" MaxLength="100" />
+    <Property Name="temp_date" Type="date" />
+    <Property Name="transfer_due_to" Type="varchar" MaxLength="100" />
+    <Property Name="created_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="created_date" Type="date" />
+    <Property Name="approved_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="approved_date" Type="date" />
+  </EntityType>
+  <EntityType Name="Vote">
+    <Key>
+      <PropertyRef Name="vote_id" />
+    </Key>
+    <Property Name="vote_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="vote_election_id" Type="int" Nullable="false" />
+    <Property Name="voter_share_id" Type="int" Nullable="false" />
+    <Property Name="candidate_id" Type="int" Nullable="false" />
+    <Property Name="total_vote_value" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ShareDB_V01.dbo.Candidate_Shareholders' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Candidate_Shareholders">
+    <Key>
+      <PropertyRef Name="election_type" />
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="election_type" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="share_id" Type="varchar" MaxLength="5" />
+    <Property Name="share_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="share_amharic" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Balance" Type="int" />
+    <Property Name="Influential_status" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ShareDB_V01.dbo.Election_Result' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Election_Result">
+    <Key>
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="Rank" Type="bigint" />
+    <Property Name="share_id" Type="varchar" MaxLength="5" />
+    <Property Name="share_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="share_amharic" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Number_of_Votters" Type="int" />
+    <Property Name="Total_Subscription_Vote" Type="int" />
+    <Property Name=" score" Type="numeric" Precision="27" Scale="13" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ShareDB_V01.dbo.Election_Vote_Result' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Election_Vote_Result">
+    <Key>
+      <PropertyRef Name="share_name" />
+    </Key>
+    <Property Name="Rank" Type="int" />
+    <Property Name="share_id" Type="varchar" MaxLength="5" />
+    <Property Name="share_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="share_amharic" Type="nvarchar" MaxLength="30" />
+    <Property Name="Number_of_Votters" Type="int" />
+    <Property Name="Total_Subscription_Vote" Type="int" />
+    <Property Name=" score" Type="numeric" Precision="27" Scale="13" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ShareDB_V01.dbo.Election_Vote_Result_2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Election_Vote_Result_2">
+    <Key>
+      <PropertyRef Name="share_name" />
+    </Key>
+    <Property Name="Rank" Type="int" />
+    <Property Name="share_id" Type="varchar" MaxLength="5" />
+    <Property Name="share_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="share_amharic" Type="nvarchar" MaxLength="30" />
+    <Property Name="Number_of_Votters" Type="int" />
+    <Property Name="Total_Subscription_Vote" Type="int" />
+    <Property Name=" score" Type="numeric" Precision="27" Scale="13" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ShareDB_V01.dbo.Non_Influential_Vote_Result' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Non_Influential_Vote_Result">
+    <Key>
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="share_id" Type="varchar" MaxLength="5" />
+    <Property Name="share_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="share_amharic" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Number_of_Votters" Type="int" />
+    <Property Name="Total_Subscription_Vote" Type="int" />
+    <Property Name=" score" Type="numeric" Precision="27" Scale="13" />
+    <Property Name="Rank" Type="bigint" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ShareDB_V01.dbo.TOP_10_Subscribers' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TOP_10_Subscribers">
+    <Key>
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="share_id" Type="varchar" MaxLength="5" />
+    <Property Name="share_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="share_amharic" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Total_Share" Type="int" />
+    <Property Name="First_Payment_Date" Type="date" />
+    <Property Name="Total_Paid" Type="decimal" Precision="38" Scale="2" />
+    <Property Name="Unpaid" Type="decimal" Precision="38" Scale="2" />
+    <Property Name="Rank" Type="bigint" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ShareDB_V01.dbo.Top_10_Unpaid_Shareholders' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Top_10_Unpaid_Shareholders">
+    <Key>
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="share_id" Type="varchar" MaxLength="5" />
+    <Property Name="share_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="share_amharic" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Total_Share" Type="int" />
+    <Property Name="Total_Paid" Type="decimal" Precision="38" Scale="2" />
+    <Property Name="Unpaid" Type="decimal" Precision="38" Scale="2" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ShareDB_V01.dbo.Unpaid_With_First_Payment_date' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Unpaid_With_First_Payment_date">
+    <Key>
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="share_id" Type="varchar" MaxLength="5" />
+    <Property Name="share_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="share_amharic" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Total_Share" Type="int" />
+    <Property Name="First_Payment_Date" Type="date" />
+    <Property Name="Total_Paid" Type="decimal" Precision="38" Scale="2" />
+    <Property Name="Unpaid" Type="decimal" Precision="38" Scale="2" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ShareDB_V01.dbo.Vote_Result' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Vote_Result">
+    <Key>
+      <PropertyRef Name="share_name" />
+      <PropertyRef Name="share_amharic" />
+    </Key>
+    <Property Name="share_id" Type="varchar" MaxLength="5" />
+    <Property Name="share_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="share_amharic" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Number_of_Votters" Type="int" />
+    <Property Name="Total_Subscription_Vote" Type="int" />
+    <Property Name=" score" Type="numeric" Precision="27" Scale="13" />
+    <Property Name="Rank" Type="bigint" />
+  </EntityType>
+  <Association Name="FK__Attendanc__atten__17036CC0">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Attendance" Type="Self.Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="attendant_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Attendanc__taken__17F790F9">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+    <End Role="Attendance" Type="Self.Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="taken_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Blocked_L__block__6A30C649">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Blocked_List" Type="Self.Blocked_List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Blocked_List">
+        <PropertyRef Name="blocked_by_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Blocked_L__relea__6B24EA82">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Blocked_List" Type="Self.Blocked_List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Blocked_List">
+        <PropertyRef Name="released_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Blocked_L__share__6C190EBB">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Blocked_List" Type="Self.Blocked_List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Blocked_List">
+        <PropertyRef Name="share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Candidate__candi__2334397B">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Candidate" Type="Self.Candidate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Candidate">
+        <PropertyRef Name="candidate_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Candidate__elect__22401542">
+    <End Role="Election" Type="Self.Election" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Candidate" Type="Self.Candidate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Election">
+        <PropertyRef Name="election_id" />
+      </Principal>
+      <Dependent Role="Candidate">
+        <PropertyRef Name="election_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Dividend___budge__628FA481">
+    <End Role="budget_year" Type="Self.budget_year" Multiplicity="1" />
+    <End Role="Dividend_Info" Type="Self.Dividend_Info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="budget_year">
+        <PropertyRef Name="budget_year_id" />
+      </Principal>
+      <Dependent Role="Dividend_Info">
+        <PropertyRef Name="budget_year_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Dividend___divid__6754599E">
+    <End Role="Dividend_Info" Type="Self.Dividend_Info" Multiplicity="1" />
+    <End Role="Dividend_Disbursement" Type="Self.Dividend_Disbursement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dividend_Info">
+        <PropertyRef Name="dividend_info_id" />
+      </Principal>
+      <Dependent Role="Dividend_Disbursement">
+        <PropertyRef Name="dividend_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Dividend___payme__66603565">
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="1" />
+    <End Role="Dividend_Disbursement" Type="Self.Dividend_Disbursement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transaction">
+        <PropertyRef Name="transction_id" />
+      </Principal>
+      <Dependent Role="Dividend_Disbursement">
+        <PropertyRef Name="payment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Dividend___share__656C112C">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Dividend_Disbursement" Type="Self.Dividend_Disbursement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Dividend_Disbursement">
+        <PropertyRef Name="share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Election__electi__1E6F845E">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+    <End Role="Election" Type="Self.Election" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Election">
+        <PropertyRef Name="election_created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Election__genera__1F63A897">
+    <End Role="general_assembly" Type="Self.general_assembly" Multiplicity="1" />
+    <End Role="Election" Type="Self.Election" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="general_assembly">
+        <PropertyRef Name="general_assembly_id" />
+      </Principal>
+      <Dependent Role="Election">
+        <PropertyRef Name="general_assembly_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__general_a__creat__1B9317B3">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+    <End Role="general_assembly" Type="Self.general_assembly" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="general_assembly">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Meeting_T__creat__02FC7413">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1" />
+    <End Role="Meeting_Type" Type="Self.Meeting_Type" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Meeting_Type">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__serial__serial_s__59FA5E80">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="serial" Type="Self.serial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="serial">
+        <PropertyRef Name="serial_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__serial__subscrip__59063A47">
+    <End Role="Subscription" Type="Self.Subscription" Multiplicity="1" />
+    <End Role="serial" Type="Self.serial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subscription">
+        <PropertyRef Name="subscription_id" />
+      </Principal>
+      <Dependent Role="serial">
+        <PropertyRef Name="subscription_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sharehold__appro__503BEA1C">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Shareholders_Total_Dividend_Paid" Type="Self.Shareholders_Total_Dividend_Paid" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Shareholders_Total_Dividend_Paid">
+        <PropertyRef Name="approved_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sharehold__creat__4F47C5E3">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Shareholders_Total_Dividend_Paid" Type="Self.Shareholders_Total_Dividend_Paid" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Shareholders_Total_Dividend_Paid">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sharehold__divid__51300E55">
+    <End Role="Dividend_Info" Type="Self.Dividend_Info" Multiplicity="1" />
+    <End Role="Shareholders_Total_Dividend_Paid" Type="Self.Shareholders_Total_Dividend_Paid" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dividend_Info">
+        <PropertyRef Name="dividend_info_id" />
+      </Principal>
+      <Dependent Role="Shareholders_Total_Dividend_Paid">
+        <PropertyRef Name="dividend_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sharehold__share__5224328E">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Shareholders_Total_Dividend_Paid" Type="Self.Shareholders_Total_Dividend_Paid" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Shareholders_Total_Dividend_Paid">
+        <PropertyRef Name="share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subscript__appro__4CA06362">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Subscription" Type="Self.Subscription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subscription">
+        <PropertyRef Name="approved_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subscript__creat__4BAC3F29">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Subscription" Type="Self.Subscription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subscription">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subscript__sub_s__4D94879B">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Subscription" Type="Self.Subscription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subscription">
+        <PropertyRef Name="sub_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__appro__5441852A">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="approved_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__appro__56B3DD81">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Transaction_History" Type="Self.Transaction_History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction_History">
+        <PropertyRef Name="approved_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__budge__5535A963">
+    <End Role="budget_year" Type="Self.budget_year" Multiplicity="1" />
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="budget_year">
+        <PropertyRef Name="budget_year_id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="budget_year_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__budge__57A801BA">
+    <End Role="budget_year" Type="Self.budget_year" Multiplicity="1" />
+    <End Role="Transaction_History" Type="Self.Transaction_History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="budget_year">
+        <PropertyRef Name="budget_year_id" />
+      </Principal>
+      <Dependent Role="Transaction_History">
+        <PropertyRef Name="budget_year_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__creat__534D60F1">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__creat__55BFB948">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Transaction_History" Type="Self.Transaction_History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction_History">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__histo__54CB950F">
+    <End Role="Subscription" Type="Self.Subscription" Multiplicity="1" />
+    <End Role="Transaction_History" Type="Self.Transaction_History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subscription">
+        <PropertyRef Name="subscription_id" />
+      </Principal>
+      <Dependent Role="Transaction_History">
+        <PropertyRef Name="history_subscription_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__histr__589C25F3">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Transaction_History" Type="Self.Transaction_History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction_History">
+        <PropertyRef Name="histroy_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__trans__52593CB8">
+    <End Role="Subscription" Type="Self.Subscription" Multiplicity="1" />
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subscription">
+        <PropertyRef Name="subscription_id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="trans_subscription_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__trans__5629CD9C">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="trans_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transfer__paymen__5DCAEF64">
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="1" />
+    <End Role="Transfer" Type="Self.Transfer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transaction">
+        <PropertyRef Name="transction_id" />
+      </Principal>
+      <Dependent Role="Transfer">
+        <PropertyRef Name="payment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transfer__transf__5EBF139D">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Transfer" Type="Self.Transfer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transfer">
+        <PropertyRef Name="transfer_from" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transfer__transf__5FB337D6">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Transfer" Type="Self.Transfer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transfer">
+        <PropertyRef Name="transfer_to" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Vote__candidate___2610A626">
+    <End Role="Candidate" Type="Self.Candidate" Multiplicity="1" />
+    <End Role="Vote" Type="Self.Vote" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Candidate">
+        <PropertyRef Name="canidate_id" />
+      </Principal>
+      <Dependent Role="Vote">
+        <PropertyRef Name="candidate_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Vote__vote_elect__2704CA5F">
+    <End Role="Election" Type="Self.Election" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Vote" Type="Self.Vote" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Election">
+        <PropertyRef Name="election_id" />
+      </Principal>
+      <Dependent Role="Vote">
+        <PropertyRef Name="vote_election_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Vote__voter_shar__27F8EE98">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Vote" Type="Self.Vote" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Vote">
+        <PropertyRef Name="voter_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="DeleteUserfromRole" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="nvarchar" Mode="In" />
+    <Parameter Name="RoleId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Get_RoleByID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RoleId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Get_RoleByID2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="GetUsers_RoleByID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RoleId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="VoteResult" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="ShareDB_V01ModelStoreContainer">
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Attendance" EntityType="Self.Attendance" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Blocked_List" EntityType="Self.Blocked_List" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="budget_year" EntityType="Self.budget_year" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Candidate" EntityType="Self.Candidate" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Dividend_Disbursement" EntityType="Self.Dividend_Disbursement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Dividend_Info" EntityType="Self.Dividend_Info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Election" EntityType="Self.Election" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="general_assembly" EntityType="Self.general_assembly" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Meeting_Type" EntityType="Self.Meeting_Type" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="serial" EntityType="Self.serial" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Shareholder" EntityType="Self.Shareholder" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Shareholders_Total_Dividend_Paid" EntityType="Self.Shareholders_Total_Dividend_Paid" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subscription" EntityType="Self.Subscription" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="System_Posting_Date" EntityType="Self.System_Posting_Date" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transaction" EntityType="Self.Transaction" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transaction_History" EntityType="Self.Transaction_History" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transfer" EntityType="Self.Transfer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vote" EntityType="Self.Vote" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Candidate_Shareholders" EntityType="Self.Candidate_Shareholders" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Candidate_Shareholders].[election_type] AS [election_type], 
+    [Candidate_Shareholders].[share_id] AS [share_id], 
+    [Candidate_Shareholders].[share_name] AS [share_name], 
+    [Candidate_Shareholders].[share_amharic] AS [share_amharic], 
+    [Candidate_Shareholders].[Balance] AS [Balance], 
+    [Candidate_Shareholders].[Influential_status] AS [Influential_status]
+    FROM [dbo].[Candidate_Shareholders] AS [Candidate_Shareholders]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Election_Result" EntityType="Self.Election_Result" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Election_Result].[Rank] AS [Rank], 
+    [Election_Result].[share_id] AS [share_id], 
+    [Election_Result].[share_name] AS [share_name], 
+    [Election_Result].[share_amharic] AS [share_amharic], 
+    [Election_Result].[Number_of_Votters] AS [Number_of_Votters], 
+    [Election_Result].[Total_Subscription_Vote] AS [Total_Subscription_Vote], 
+    [Election_Result].[ score] AS [ score]
+    FROM [dbo].[Election_Result] AS [Election_Result]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Election_Vote_Result" EntityType="Self.Election_Vote_Result" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Election_Vote_Result].[Rank] AS [Rank], 
+    [Election_Vote_Result].[share_id] AS [share_id], 
+    [Election_Vote_Result].[share_name] AS [share_name], 
+    [Election_Vote_Result].[share_amharic] AS [share_amharic], 
+    [Election_Vote_Result].[Number_of_Votters] AS [Number_of_Votters], 
+    [Election_Vote_Result].[Total_Subscription_Vote] AS [Total_Subscription_Vote], 
+    [Election_Vote_Result].[ score] AS [ score]
+    FROM [dbo].[Election_Vote_Result] AS [Election_Vote_Result]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Election_Vote_Result_2" EntityType="Self.Election_Vote_Result_2" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Election_Vote_Result_2].[Rank] AS [Rank], 
+    [Election_Vote_Result_2].[share_id] AS [share_id], 
+    [Election_Vote_Result_2].[share_name] AS [share_name], 
+    [Election_Vote_Result_2].[share_amharic] AS [share_amharic], 
+    [Election_Vote_Result_2].[Number_of_Votters] AS [Number_of_Votters], 
+    [Election_Vote_Result_2].[Total_Subscription_Vote] AS [Total_Subscription_Vote], 
+    [Election_Vote_Result_2].[ score] AS [ score]
+    FROM [dbo].[Election_Vote_Result_2] AS [Election_Vote_Result_2]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Non_Influential_Vote_Result" EntityType="Self.Non_Influential_Vote_Result" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Non_Influential_Vote_Result].[share_id] AS [share_id], 
+    [Non_Influential_Vote_Result].[share_name] AS [share_name], 
+    [Non_Influential_Vote_Result].[share_amharic] AS [share_amharic], 
+    [Non_Influential_Vote_Result].[Number_of_Votters] AS [Number_of_Votters], 
+    [Non_Influential_Vote_Result].[Total_Subscription_Vote] AS [Total_Subscription_Vote], 
+    [Non_Influential_Vote_Result].[ score] AS [ score], 
+    [Non_Influential_Vote_Result].[Rank] AS [Rank]
+    FROM [dbo].[Non_Influential_Vote_Result] AS [Non_Influential_Vote_Result]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TOP_10_Subscribers" EntityType="Self.TOP_10_Subscribers" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TOP_10_Subscribers].[share_id] AS [share_id], 
+    [TOP_10_Subscribers].[share_name] AS [share_name], 
+    [TOP_10_Subscribers].[share_amharic] AS [share_amharic], 
+    [TOP_10_Subscribers].[Total_Share] AS [Total_Share], 
+    [TOP_10_Subscribers].[First_Payment_Date] AS [First_Payment_Date], 
+    [TOP_10_Subscribers].[Total_Paid] AS [Total_Paid], 
+    [TOP_10_Subscribers].[Unpaid] AS [Unpaid], 
+    [TOP_10_Subscribers].[Rank] AS [Rank]
+    FROM [dbo].[TOP_10_Subscribers] AS [TOP_10_Subscribers]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Top_10_Unpaid_Shareholders" EntityType="Self.Top_10_Unpaid_Shareholders" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Top_10_Unpaid_Shareholders].[share_id] AS [share_id], 
+    [Top_10_Unpaid_Shareholders].[share_name] AS [share_name], 
+    [Top_10_Unpaid_Shareholders].[share_amharic] AS [share_amharic], 
+    [Top_10_Unpaid_Shareholders].[Total_Share] AS [Total_Share], 
+    [Top_10_Unpaid_Shareholders].[Total_Paid] AS [Total_Paid], 
+    [Top_10_Unpaid_Shareholders].[Unpaid] AS [Unpaid]
+    FROM [dbo].[Top_10_Unpaid_Shareholders] AS [Top_10_Unpaid_Shareholders]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Unpaid_With_First_Payment_date" EntityType="Self.Unpaid_With_First_Payment_date" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Unpaid_With_First_Payment_date].[share_id] AS [share_id], 
+    [Unpaid_With_First_Payment_date].[share_name] AS [share_name], 
+    [Unpaid_With_First_Payment_date].[share_amharic] AS [share_amharic], 
+    [Unpaid_With_First_Payment_date].[Total_Share] AS [Total_Share], 
+    [Unpaid_With_First_Payment_date].[First_Payment_Date] AS [First_Payment_Date], 
+    [Unpaid_With_First_Payment_date].[Total_Paid] AS [Total_Paid], 
+    [Unpaid_With_First_Payment_date].[Unpaid] AS [Unpaid]
+    FROM [dbo].[Unpaid_With_First_Payment_date] AS [Unpaid_With_First_Payment_date]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Vote_Result" EntityType="Self.Vote_Result" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Vote_Result].[share_id] AS [share_id], 
+    [Vote_Result].[share_name] AS [share_name], 
+    [Vote_Result].[share_amharic] AS [share_amharic], 
+    [Vote_Result].[Number_of_Votters] AS [Number_of_Votters], 
+    [Vote_Result].[Total_Subscription_Vote] AS [Total_Subscription_Vote], 
+    [Vote_Result].[ score] AS [ score], 
+    [Vote_Result].[Rank] AS [Rank]
+    FROM [dbo].[Vote_Result] AS [Vote_Result]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__Attendanc__atten__17036CC0" Association="Self.FK__Attendanc__atten__17036CC0">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Attendance" EntitySet="Attendance" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Attendanc__taken__17F790F9" Association="Self.FK__Attendanc__taken__17F790F9">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Attendance" EntitySet="Attendance" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Blocked_L__block__6A30C649" Association="Self.FK__Blocked_L__block__6A30C649">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Blocked_List" EntitySet="Blocked_List" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Blocked_L__relea__6B24EA82" Association="Self.FK__Blocked_L__relea__6B24EA82">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Blocked_List" EntitySet="Blocked_List" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Blocked_L__share__6C190EBB" Association="Self.FK__Blocked_L__share__6C190EBB">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Blocked_List" EntitySet="Blocked_List" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Candidate__candi__2334397B" Association="Self.FK__Candidate__candi__2334397B">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Candidate" EntitySet="Candidate" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Candidate__elect__22401542" Association="Self.FK__Candidate__elect__22401542">
+      <End Role="Election" EntitySet="Election" />
+      <End Role="Candidate" EntitySet="Candidate" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Dividend___budge__628FA481" Association="Self.FK__Dividend___budge__628FA481">
+      <End Role="budget_year" EntitySet="budget_year" />
+      <End Role="Dividend_Info" EntitySet="Dividend_Info" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Dividend___divid__6754599E" Association="Self.FK__Dividend___divid__6754599E">
+      <End Role="Dividend_Info" EntitySet="Dividend_Info" />
+      <End Role="Dividend_Disbursement" EntitySet="Dividend_Disbursement" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Dividend___payme__66603565" Association="Self.FK__Dividend___payme__66603565">
+      <End Role="Transaction" EntitySet="Transaction" />
+      <End Role="Dividend_Disbursement" EntitySet="Dividend_Disbursement" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Dividend___share__656C112C" Association="Self.FK__Dividend___share__656C112C">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Dividend_Disbursement" EntitySet="Dividend_Disbursement" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Election__electi__1E6F845E" Association="Self.FK__Election__electi__1E6F845E">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Election" EntitySet="Election" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Election__genera__1F63A897" Association="Self.FK__Election__genera__1F63A897">
+      <End Role="general_assembly" EntitySet="general_assembly" />
+      <End Role="Election" EntitySet="Election" />
+    </AssociationSet>
+    <AssociationSet Name="FK__general_a__creat__1B9317B3" Association="Self.FK__general_a__creat__1B9317B3">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="general_assembly" EntitySet="general_assembly" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Meeting_T__creat__02FC7413" Association="Self.FK__Meeting_T__creat__02FC7413">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Meeting_Type" EntitySet="Meeting_Type" />
+    </AssociationSet>
+    <AssociationSet Name="FK__serial__serial_s__59FA5E80" Association="Self.FK__serial__serial_s__59FA5E80">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="serial" EntitySet="serial" />
+    </AssociationSet>
+    <AssociationSet Name="FK__serial__subscrip__59063A47" Association="Self.FK__serial__subscrip__59063A47">
+      <End Role="Subscription" EntitySet="Subscription" />
+      <End Role="serial" EntitySet="serial" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sharehold__appro__503BEA1C" Association="Self.FK__Sharehold__appro__503BEA1C">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Shareholders_Total_Dividend_Paid" EntitySet="Shareholders_Total_Dividend_Paid" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sharehold__creat__4F47C5E3" Association="Self.FK__Sharehold__creat__4F47C5E3">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Shareholders_Total_Dividend_Paid" EntitySet="Shareholders_Total_Dividend_Paid" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sharehold__divid__51300E55" Association="Self.FK__Sharehold__divid__51300E55">
+      <End Role="Dividend_Info" EntitySet="Dividend_Info" />
+      <End Role="Shareholders_Total_Dividend_Paid" EntitySet="Shareholders_Total_Dividend_Paid" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sharehold__share__5224328E" Association="Self.FK__Sharehold__share__5224328E">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Shareholders_Total_Dividend_Paid" EntitySet="Shareholders_Total_Dividend_Paid" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subscript__appro__4CA06362" Association="Self.FK__Subscript__appro__4CA06362">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Subscription" EntitySet="Subscription" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subscript__creat__4BAC3F29" Association="Self.FK__Subscript__creat__4BAC3F29">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Subscription" EntitySet="Subscription" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subscript__sub_s__4D94879B" Association="Self.FK__Subscript__sub_s__4D94879B">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Subscription" EntitySet="Subscription" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__appro__5441852A" Association="Self.FK__Transacti__appro__5441852A">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__appro__56B3DD81" Association="Self.FK__Transacti__appro__56B3DD81">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Transaction_History" EntitySet="Transaction_History" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__budge__5535A963" Association="Self.FK__Transacti__budge__5535A963">
+      <End Role="budget_year" EntitySet="budget_year" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__budge__57A801BA" Association="Self.FK__Transacti__budge__57A801BA">
+      <End Role="budget_year" EntitySet="budget_year" />
+      <End Role="Transaction_History" EntitySet="Transaction_History" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__creat__534D60F1" Association="Self.FK__Transacti__creat__534D60F1">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__creat__55BFB948" Association="Self.FK__Transacti__creat__55BFB948">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Transaction_History" EntitySet="Transaction_History" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__histo__54CB950F" Association="Self.FK__Transacti__histo__54CB950F">
+      <End Role="Subscription" EntitySet="Subscription" />
+      <End Role="Transaction_History" EntitySet="Transaction_History" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__histr__589C25F3" Association="Self.FK__Transacti__histr__589C25F3">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Transaction_History" EntitySet="Transaction_History" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__trans__52593CB8" Association="Self.FK__Transacti__trans__52593CB8">
+      <End Role="Subscription" EntitySet="Subscription" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__trans__5629CD9C" Association="Self.FK__Transacti__trans__5629CD9C">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transfer__paymen__5DCAEF64" Association="Self.FK__Transfer__paymen__5DCAEF64">
+      <End Role="Transaction" EntitySet="Transaction" />
+      <End Role="Transfer" EntitySet="Transfer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transfer__transf__5EBF139D" Association="Self.FK__Transfer__transf__5EBF139D">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Transfer" EntitySet="Transfer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transfer__transf__5FB337D6" Association="Self.FK__Transfer__transf__5FB337D6">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Transfer" EntitySet="Transfer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Vote__candidate___2610A626" Association="Self.FK__Vote__candidate___2610A626">
+      <End Role="Candidate" EntitySet="Candidate" />
+      <End Role="Vote" EntitySet="Vote" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Vote__vote_elect__2704CA5F" Association="Self.FK__Vote__vote_elect__2704CA5F">
+      <End Role="Election" EntitySet="Election" />
+      <End Role="Vote" EntitySet="Vote" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Vote__voter_shar__27F8EE98" Association="Self.FK__Vote__voter_shar__27F8EE98">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Vote" EntitySet="Vote" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,82 @@
+﻿@model ShareSysProd.Models.DocumentMap
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>DocumentMap</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Status)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Status)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Mandatorie)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Mandatorie)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CreatedDate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ApprovedDate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ApprovedDate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Categories_Type.CategoryName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Categories_Type.CategoryName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.DocumentType.DocumentTypeName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.DocumentType.DocumentTypeName)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.DocumentMapId }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

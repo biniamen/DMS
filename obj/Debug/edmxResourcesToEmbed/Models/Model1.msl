@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RiskEventDBModelStoreContainer" CdmEntityContainer="RiskEventDBEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="RiskEventDBModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="RiskEventDBModel.AspNetRole">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="RiskEventDBModel.AspNetUserClaim">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="RiskEventDBModel.AspNetUserLogin">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="RiskEventDBModel.AspNetUser">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="RiskEventDBModel.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetRoles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+      <EndProperty Name="AspNetUsers">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="DeleteUserfromRole" FunctionName="RiskEventDBModel.Store.DeleteUserfromRole" />
+    <FunctionImportMapping FunctionImportName="Get_RoleByID" FunctionName="RiskEventDBModel.Store.Get_RoleByID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="RiskEventDBModel.Get_RoleByID_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Get_RoleByID2" FunctionName="RiskEventDBModel.Store.Get_RoleByID2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="RiskEventDBModel.Get_RoleByID2_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetUsers_RoleByID" FunctionName="RiskEventDBModel.Store.GetUsers_RoleByID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="RiskEventDBModel.GetUsers_RoleByID_Result">
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="UsersRole" ColumnName="UsersRole" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="VoteResult" FunctionName="RiskEventDBModel.Store.VoteResult" />
+    <EntitySetMapping Name="Risk_Event_Subscategory">
+      <EntityTypeMapping TypeName="RiskEventDBModel.Risk_Event_Subscategory">
+        <MappingFragment StoreEntitySet="Risk_Event_Subscategory">
+          <ScalarProperty Name="Risk_Event_desc" ColumnName="Risk_Event_desc" />
+          <ScalarProperty Name="Risk_Event_id" ColumnName="Risk_Event_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Branches_and_Department">
+      <EntityTypeMapping TypeName="RiskEventDBModel.Branches_and_Department">
+        <MappingFragment StoreEntitySet="Branches_and_Department">
+          <ScalarProperty Name="Branch_department_name" ColumnName="Branch_department_name" />
+          <ScalarProperty Name="Branch_department_Code" ColumnName="Branch_department_Code" />
+          <ScalarProperty Name="branch_id" ColumnName="branch_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Level_of_Inherent_Risk_Frequency">
+      <EntityTypeMapping TypeName="RiskEventDBModel.Level_of_Inherent_Risk_Frequency">
+        <MappingFragment StoreEntitySet="Level_of_Inherent_Risk_Frequency">
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Risk_of_frequency" ColumnName="Risk_of_frequency" />
+          <ScalarProperty Name="risk_frequency_id" ColumnName="risk_frequency_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Level_of_Inherent_Risk_Impact">
+      <EntityTypeMapping TypeName="RiskEventDBModel.Level_of_Inherent_Risk_Impact">
+        <MappingFragment StoreEntitySet="Level_of_Inherent_Risk_Impact">
+          <ScalarProperty Name="Impact_Value" ColumnName="Impact_Value" />
+          <ScalarProperty Name="Risk_of_impact" ColumnName="Risk_of_impact" />
+          <ScalarProperty Name="risk_impact_id" ColumnName="risk_impact_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KRI_SELECTED">
+      <EntityTypeMapping TypeName="RiskEventDBModel.KRI_SELECTED">
+        <MappingFragment StoreEntitySet="KRI_SELECTED">
+          <ScalarProperty Name="event_id" ColumnName="event_id" />
+          <ScalarProperty Name="slected_kri_id" ColumnName="slected_kri_id" />
+          <ScalarProperty Name="s_kri_id" ColumnName="s_kri_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KRIs">
+      <EntityTypeMapping TypeName="RiskEventDBModel.KRI">
+        <MappingFragment StoreEntitySet="KRI">
+          <ScalarProperty Name="KRI_Name" ColumnName="KRI_Name" />
+          <ScalarProperty Name="kri_id" ColumnName="kri_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Risk_Rating">
+      <EntityTypeMapping TypeName="RiskEventDBModel.Risk_Rating">
+        <MappingFragment StoreEntitySet="Risk_Rating">
+          <ScalarProperty Name="Rating_Value" ColumnName="Rating_Value" />
+          <ScalarProperty Name="Risk_Rating1" ColumnName="Risk_Rating" />
+          <ScalarProperty Name="risk_rating_id" ColumnName="risk_rating_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Risk_Event_Master_Book">
+      <EntityTypeMapping TypeName="RiskEventDBModel.Risk_Event_Master_Book">
+        <MappingFragment StoreEntitySet="Risk_Event_Master_Book">
+          <ScalarProperty Name="Other_specified" ColumnName="Other_specified" />
+          <ScalarProperty Name="Others" ColumnName="Others" />
+          <ScalarProperty Name="System_" ColumnName="System " />
+          <ScalarProperty Name="Facility" ColumnName="Facility" />
+          <ScalarProperty Name="Operational" ColumnName="Operational" />
+          <ScalarProperty Name="People_Human_Resource_" ColumnName="People(Human Resource)" />
+          <ScalarProperty Name="Financial" ColumnName="Financial" />
+          <ScalarProperty Name="Exact_Cost" ColumnName="Exact_Cost" />
+          <ScalarProperty Name="Cost_of_action" ColumnName="Cost_of_action" />
+          <ScalarProperty Name="Supporting_document" ColumnName="Supporting_document" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="approved_date" ColumnName="approved_date" />
+          <ScalarProperty Name="approved_by" ColumnName="approved_by" />
+          <ScalarProperty Name="created_date" ColumnName="created_date" />
+          <ScalarProperty Name="Risk_Owner_4" ColumnName="Risk_Owner_4" />
+          <ScalarProperty Name="Risk_Owner_3" ColumnName="Risk_Owner_3" />
+          <ScalarProperty Name="Risk_Owner_2" ColumnName="Risk_Owner_2" />
+          <ScalarProperty Name="Risk_Owner" ColumnName="Risk_Owner" />
+          <ScalarProperty Name="edited_by" ColumnName="edited_by" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="Is_there_Cost_of_proposed_action" ColumnName="Is_there_Cost_of_proposed_action" />
+          <ScalarProperty Name="Is_Existing" ColumnName="Is_Existing" />
+          <ScalarProperty Name="Transferred_to_decipline_date" ColumnName="Transferred_to_decipline_date" />
+          <ScalarProperty Name="Transferred_Decipline_Committe" ColumnName="Transferred_Decipline_Committe" />
+          <ScalarProperty Name="transferred_to_legal_date" ColumnName="transferred_to_legal_date" />
+          <ScalarProperty Name="Transferred_to_legal_department" ColumnName="Transferred_to_legal_department" />
+          <ScalarProperty Name="Effort_exerted_to_resolve_risk" ColumnName="Effort_exerted_to_resolve_risk" />
+          <ScalarProperty Name="Status_Follow_Up_by_risk_owner" ColumnName="Status_Follow-Up_by_risk_owner" />
+          <ScalarProperty Name="date_of_resolved" ColumnName="date_of_resolved" />
+          <ScalarProperty Name="Status_resolved" ColumnName="Status_resolved" />
+          <ScalarProperty Name="Key_Risk_Indicators" ColumnName="Key_Risk_Indicators" />
+          <ScalarProperty Name="Proposed_mitigation_control" ColumnName="Proposed_mitigation_control" />
+          <ScalarProperty Name="Existing_mitigation_control" ColumnName="Existing_mitigation_control" />
+          <ScalarProperty Name="root_cause" ColumnName="root_cause" />
+          <ScalarProperty Name="risk_rating" ColumnName="risk_rating" />
+          <ScalarProperty Name="level_of_risk_impact" ColumnName="level_of_risk_impact" />
+          <ScalarProperty Name="level_of_risk_frequency" ColumnName="level_of_risk_frequency" />
+          <ScalarProperty Name="Risk_Description" ColumnName="Risk_Description" />
+          <ScalarProperty Name="Risk_Event_subcategory_id" ColumnName="Risk_Event_subcategory_id" />
+          <ScalarProperty Name="risk_area" ColumnName="risk_area" />
+          <ScalarProperty Name="RIF" ColumnName="RIF" />
+          <ScalarProperty Name="date_of_risk_event_identified" ColumnName="date_of_risk_event_identified" />
+          <ScalarProperty Name="date_of_risk_event_occured" ColumnName="date_of_risk_event_occured" />
+          <ScalarProperty Name="date_of_operation_commenced" ColumnName="date_of_operation_commenced" />
+          <ScalarProperty Name="branch_name" ColumnName="branch_name" />
+          <ScalarProperty Name="master_book_id" ColumnName="master_book_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transaction_Log">
+      <EntityTypeMapping TypeName="RiskEventDBModel.Transaction_Log">
+        <MappingFragment StoreEntitySet="Transaction_Log">
+          <ScalarProperty Name="Supporting_document" ColumnName="Supporting_document" />
+          <ScalarProperty Name="Other_specified" ColumnName="Other_specified" />
+          <ScalarProperty Name="Others" ColumnName="Others" />
+          <ScalarProperty Name="System_" ColumnName="System " />
+          <ScalarProperty Name="Facility" ColumnName="Facility" />
+          <ScalarProperty Name="Operational" ColumnName="Operational" />
+          <ScalarProperty Name="People_Human_Resource_" ColumnName="People(Human Resource)" />
+          <ScalarProperty Name="Financial" ColumnName="Financial" />
+          <ScalarProperty Name="Exact_Cost" ColumnName="Exact_Cost" />
+          <ScalarProperty Name="Cost_of_action" ColumnName="Cost_of_action" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="approved_date" ColumnName="approved_date" />
+          <ScalarProperty Name="approved_by" ColumnName="approved_by" />
+          <ScalarProperty Name="created_date" ColumnName="created_date" />
+          <ScalarProperty Name="edited_by" ColumnName="edited_by" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="Is_there_Cost_of_proposed_action" ColumnName="Is_there_Cost_of_proposed_action" />
+          <ScalarProperty Name="Is_Existing" ColumnName="Is_Existing" />
+          <ScalarProperty Name="Transferred_to_decipline_date" ColumnName="Transferred_to_decipline_date" />
+          <ScalarProperty Name="Transferred_Decipline_Committe" ColumnName="Transferred_Decipline_Committe" />
+          <ScalarProperty Name="transferred_to_legal_date" ColumnName="transferred_to_legal_date" />
+          <ScalarProperty Name="Transferred_to_legal_department" ColumnName="Transferred_to_legal_department" />
+          <ScalarProperty Name="Effort_exerted_to_resolve_risk" ColumnName="Effort_exerted_to_resolve_risk" />
+          <ScalarProperty Name="Status_Follow_Up_by_risk_owner" ColumnName="Status_Follow-Up_by_risk_owner" />
+          <ScalarProperty Name="date_of_resolved" ColumnName="date_of_resolved" />
+          <ScalarProperty Name="Status_resolved" ColumnName="Status_resolved" />
+          <ScalarProperty Name="Key_Risk_Indicators" ColumnName="Key_Risk_Indicators" />
+          <ScalarProperty Name="Risk_Owner_4" ColumnName="Risk_Owner_4" />
+          <ScalarProperty Name="Risk_Owner_3" ColumnName="Risk_Owner_3" />
+          <ScalarProperty Name="Risk_Owner_2" ColumnName="Risk_Owner_2" />
+          <ScalarProperty Name="Risk_Owner" ColumnName="Risk_Owner" />
+          <ScalarProperty Name="Proposed_mitigation_control" ColumnName="Proposed_mitigation_control" />
+          <ScalarProperty Name="Existing_mitigation_control" ColumnName="Existing_mitigation_control" />
+          <ScalarProperty Name="root_cause" ColumnName="root_cause" />
+          <ScalarProperty Name="risk_rating" ColumnName="risk_rating" />
+          <ScalarProperty Name="level_of_risk_impact" ColumnName="level_of_risk_impact" />
+          <ScalarProperty Name="level_of_risk_frequency" ColumnName="level_of_risk_frequency" />
+          <ScalarProperty Name="Risk_Description" ColumnName="Risk_Description" />
+          <ScalarProperty Name="Risk_Event_subcategory_id" ColumnName="Risk_Event_subcategory_id" />
+          <ScalarProperty Name="risk_area" ColumnName="risk_area" />
+          <ScalarProperty Name="RIF" ColumnName="RIF" />
+          <ScalarProperty Name="date_of_risk_event_identified" ColumnName="date_of_risk_event_identified" />
+          <ScalarProperty Name="date_of_risk_event_occured" ColumnName="date_of_risk_event_occured" />
+          <ScalarProperty Name="date_of_operation_commenced" ColumnName="date_of_operation_commenced" />
+          <ScalarProperty Name="branch_name" ColumnName="branch_name" />
+          <ScalarProperty Name="event_id" ColumnName="event_id" />
+          <ScalarProperty Name="log_id" ColumnName="log_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

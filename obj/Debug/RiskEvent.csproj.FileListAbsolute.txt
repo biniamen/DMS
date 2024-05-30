@@ -1,0 +1,1710 @@
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Reports\VoteResult.rpt
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Reports\VoteResult1.cs
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportSource.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.Shared.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\EntityFramework.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Owin.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\WebGrease.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\stdole.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\EntityFramework.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\RiskEvent_System\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+E:\RiskEvent_System\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+E:\RiskEvent_System\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\RiskEvent_System\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+E:\RiskEvent_System\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CoreCompileInputs.cache
+E:\RiskEvent_System\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+E:\RiskEvent_System\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+E:\RiskEvent_System\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb
+E:\RiskEvent_System\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csprojAssemblyReference.cache
+E:\Risk Related\RiskEvent\RiskEvent\bin\Reports\VoteResult.rpt
+E:\Risk Related\RiskEvent\RiskEvent\bin\Reports\VoteResult1.cs
+E:\Risk Related\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+E:\Risk Related\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+E:\Risk Related\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+E:\Risk Related\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\EntityFramework.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\Owin.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\WebGrease.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\stdole.dll
+E:\Risk Related\RiskEvent\RiskEvent\bin\EntityFramework.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Risk Related\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Risk Related\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.AssemblyReference.cache
+E:\Risk Related\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+E:\Risk Related\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+E:\Risk Related\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\Risk Related\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+E:\Risk Related\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CoreCompileInputs.cache
+E:\Risk Related\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+E:\Risk Related\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+E:\Risk Related\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult.rpt
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult1.cs
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\EntityFramework.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Owin.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\WebGrease.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\EntityFramework.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CoreCompileInputs.cache
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb
+D:\Risk System Related\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.AssemblyReference.cache
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult.rpt
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult1.cs
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportSource.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.Shared.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Owin.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\WebGrease.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\stdole.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+D:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult.rpt
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult1.cs
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Owin.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\WebGrease.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CoreCompileInputs.cache
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportSource.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.Shared.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\bin\stdole.dll
+E:\Risk_29-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csprojAssemblyReference.cache
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult.rpt
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult1.cs
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Owin.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\WebGrease.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CoreCompileInputs.cache
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb
+E:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.AssemblyReference.cache
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult.rpt
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult1.cs
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportSource.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.Shared.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Owin.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\WebGrease.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\stdole.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csprojAssemblyReference.cache
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CoreCompileInputs.cache
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+D:\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult.rpt
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult1.cs
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Owin.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\WebGrease.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.AssemblyReference.cache
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CoreCompileInputs.cache
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+D:\Risk System Related\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult.rpt
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult1.cs
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportSource.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.Shared.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Owin.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\WebGrease.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\stdole.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csprojAssemblyReference.cache
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CoreCompileInputs.cache
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+E:\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult.rpt
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Reports\VoteResult1.cs
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Owin.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\WebGrease.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.AssemblyReference.cache
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CoreCompileInputs.cache
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+C:\Users\Biniyam K\Desktop\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportSource.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.Shared.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Owin.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\WebGrease.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\stdole.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CoreCompileInputs.cache
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+E:\3rd correction\corrected\finalized_Sept-2021\Risk_29-2021\Risk_03-09-2021\Progress\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\EntityFramework.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Owin.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\WebGrease.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\EntityFramework.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.AssemblyReference.cache
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CoreCompileInputs.cache
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+D:\Risk System Related\3rd correction\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportSource.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.Shared.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\EntityFramework.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Owin.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\WebGrease.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\stdole.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\EntityFramework.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csprojAssemblyReference.cache
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CoreCompileInputs.cache
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+E:\3rd correction\4th correction\3rd correction\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb
+E:\applications\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+E:\applications\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+E:\applications\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+E:\applications\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+E:\applications\RiskEvent\RiskEvent\bin\EntityFramework.dll
+E:\applications\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+E:\applications\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+E:\applications\RiskEvent\RiskEvent\bin\Owin.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+E:\applications\RiskEvent\RiskEvent\bin\WebGrease.dll
+E:\applications\RiskEvent\RiskEvent\bin\EntityFramework.xml
+E:\applications\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+E:\applications\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+E:\applications\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\applications\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csprojAssemblyReference.cache
+E:\applications\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.InitialCreate.resources
+E:\applications\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAdded.resources
+E:\applications\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\applications\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.GenerateResource.cache
+E:\applications\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CoreCompileInputs.cache
+E:\applications\RiskEvent\RiskEvent\obj\Debug\RiskEvent.csproj.CopyComplete
+E:\applications\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.dll
+E:\applications\RiskEvent\RiskEvent\obj\Debug\ShareSysProd.pdb

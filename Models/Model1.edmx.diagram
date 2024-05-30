@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="653e37f5852a4795862399c42fd3c341" Name="Diagram1">
+        <EntityTypeShape EntityType="RiskEventDBModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiskEventDBModel.AspNetRole" Width="1.5" PointX="0.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiskEventDBModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiskEventDBModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiskEventDBModel.AspNetUser" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiskEventDBModel.Branches_and_Department" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiskEventDBModel.Categories_Type" Width="1.5" PointX="5.25" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiskEventDBModel.Document" Width="1.5" PointX="9.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiskEventDBModel.Documentation" Width="1.5" PointX="7.5" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiskEventDBModel.DocumentationProcess" Width="1.5" PointX="10.5" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiskEventDBModel.DocumentMap" Width="1.5" PointX="7.5" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RiskEventDBModel.DocumentType" Width="1.5" PointX="5.25" PointY="16.625" IsExpanded="true" />
+        <AssociationConnector Association="RiskEventDBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK_CategoriesType_ApprovedByUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK_CategoriesType_CreatedByUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK_Document_CreatedByUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK_Documentation_ApprovedByUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK_Documentation_CreatedByUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK_DocumentationProcess_ApprovedByUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK_DocumentationProcess_CreatedByUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK_DocumentType_ApprovedByUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK_DocumentType_CreatedByUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK__Documenta__Categ__05F8DC4F" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK__Documenta__Categ__7A8729A3" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK__DocumentM__Categ__01342732" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK_DocumentationProcess_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK_Document_DocumentationId" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK_Document_DocumentTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.FK__DocumentM__Docum__004002F9" ManuallyRouted="false" />
+        <AssociationConnector Association="RiskEventDBModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

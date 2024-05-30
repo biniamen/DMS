@@ -1,0 +1,96 @@
+﻿@model ShareSysProd.Models.DocumentType
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+</head>
+<body>
+    <h3>Are you sure you want to delete this?</h3>
+    <div>
+        <h4>DocumentType</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.DocumentTypeName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.DocumentTypeName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CreatedBy)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CreatedBy)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CreatedDate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ApprovedBy)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ApprovedBy)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ApprovedDate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ApprovedDate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.AspNetUser.Email)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.AspNetUser.Email)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.AspNetUser1.Email)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.AspNetUser1.Email)
+            </dd>
+    
+        </dl>
+    
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+    
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-default" /> |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+        }
+    </div>
+</body>
+</html>

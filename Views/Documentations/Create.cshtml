@@ -1,0 +1,225 @@
+﻿@model ShareSysProd.Models.DocumentationViewModel
+
+@{
+    ViewBag.Title = "Create New Documentation";
+}
+
+@using (Html.BeginForm("Create", "Documentations", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="page-content-wrapper">
+        <div class="page-content">
+            <div class="note note-success">
+                <h3>Documentation Registration</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="portlet light portlet-fit portlet-form bordered">
+                        <div class="portlet-title">
+                            <div class="caption">
+                                <i class="icon-layers font-green"></i>
+                                <span class="caption-subject font-green sbold uppercase">New Documentation</span>
+                            </div>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="form-horizontal">
+                                <hr />
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.CIF, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.CIF, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.CIF, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.ClientName, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.ClientName, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.ClientName, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Mobile, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.Mobile, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Mobile, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Branch, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.Branch, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Branch, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.CustomerType, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.CustomerType, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.CustomerType, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.CategoriesId, "CategoriesId", htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.DropDownList("CategoriesId", null, "Select Category", new { @class = "form-control", @id = "CategoriesId", @onchange = "loadDocumentTypes()" })
+                                        @Html.ValidationMessageFor(model => model.CategoriesId, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div id="document-types-container">
+                                    <!-- Document types will be dynamically loaded here -->
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.Status, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Reason, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.Reason, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Reason, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.CreatedByUserId, "CreatedByUserId", htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.DropDownList("CreatedByUserId", null, htmlAttributes: new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.CreatedByUserId, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.ApprovedByUserId, "ApprovedByUserId", htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.DropDownList("ApprovedByUserId", null, htmlAttributes: new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.ApprovedByUserId, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.DocumentReference, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.DocumentReference, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.DocumentReference, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-10">
+                                        <input type="submit" value="Create Documentation" class="btn green" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+@*<script type="text/javascript">
+    function loadDocumentTypes() {
+        var categoryId = $('#CategoriesId').val(); // Get the selected category ID
+        $.ajax({
+            url: '@Url.Action("GetDocumentTypesByCategory", "Documentations")', // Make sure this points to the correct controller and action
+            type: 'GET',
+            data: { categoryId: categoryId },
+            success: function (documentTypes) {
+                var container = $('#document-types-container');
+                container.empty(); // Clear any existing inputs
+
+                if (categoryId == 1) { // Replace "ID_of_Individual" with the actual ID for the "Individual" category
+                    createSingleFileUploader(container);
+                } else {
+                    // Iterate through each document type and create form inputs for other categories
+                    $.each(documentTypes, function (index, docType) {
+                        var div = $('<div>').addClass('form-group');
+                        var label = $('<label>').addClass('control-label col-md-2').text(docType.DocumentTypeName); // Use the name from your JSON data
+                        var inputDiv = $('<div>').addClass('col-md-10');
+                        var input = $('<input>').attr({
+                            type: 'file',
+                            name: 'DocumentFiles[' + docType.DocumentTypeId + ']', // This ensures proper model binding
+                            class: 'form-control'
+                        });
+
+                        inputDiv.append(input);
+                        div.append(label).append(inputDiv);
+                        container.append(div);
+                    });
+                }
+            },
+            error: function (xhr, status, error) {
+                // Handle errors
+                console.error("Error loading document types: " + error);
+            }
+        });
+    }
+
+    function createSingleFileUploader(container) {
+        var div = $('<div>').addClass('form-group');
+        var label = $('<label>').addClass('control-label col-md-2').text('Upload File'); // General label for the file uploader
+        var inputDiv = $('<div>').addClass('col-md-10');
+        var input = $('<input>').attr({
+            type: 'file',
+            name: 'SingleDocumentFile', // Name adjusted for binding a single file
+            class: 'form-control'
+        });
+
+        inputDiv.append(input);
+        div.append(label).append(inputDiv);
+        container.append(div);
+    }
+</script>*@
+@* Use the below script if you want to use dynamic file uploader *@
+<script type="text/javascript">
+    function loadDocumentTypes() {
+        var categoryId = $('#CategoriesId').val();
+        $.ajax({
+            url: '@Url.Action("GetDocumentTypesByCategory", "Documentations")',
+            type: 'GET',
+            data: { categoryId: categoryId },
+            success: function (documentTypes) {
+                var container = $('#document-types-container');
+                container.empty();
+                documentTypes.forEach(function(docType) {
+                    container.append(
+                        '<div class="form-group">' +
+                        '<label>' + docType.DocumentTypeName + '</label>' +
+                        '<input type="file" name="DocumentFiles[' + docType.DocumentTypeId + ']" />' +
+                        '</div>'
+                    );
+                });
+            }
+        });
+    }
+</script>
+
+
+

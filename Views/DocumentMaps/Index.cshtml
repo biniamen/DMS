@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ShareSysProd.Models.DocumentMap>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mandatorie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApprovedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categories_Type.CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DocumentType.DocumentTypeName)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mandatorie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApprovedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categories_Type.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DocumentType.DocumentTypeName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.DocumentMapId }) |
+                @Html.ActionLink("Details", "Details", new { id=item.DocumentMapId }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.DocumentMapId })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

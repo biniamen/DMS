@@ -1,0 +1,1072 @@
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll.config
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\ShareSysProd.pdb
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe.config
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\csc.rsp
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe.config
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\csi.rsp
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.AppContext.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Console.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Http.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Sockets.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.ValueTuple.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe.config
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\vbc.rsp
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\EntityFramework.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Owin.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.Razor.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\WebGrease.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.Razor.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.pdb
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\EntityFramework.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.GenerateResource.cache
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CopyComplete
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.dll
+C:\Users\BINI-DGB\source\repos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.pdb
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll.config
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\ShareSysProd.pdb
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe.config
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\csc.rsp
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe.config
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\csi.rsp
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.AppContext.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Console.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Http.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.ValueTuple.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe.config
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\vbc.rsp
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\EntityFramework.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Owin.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.Razor.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\WebGrease.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.Razor.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.pdb
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\EntityFramework.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.GenerateResource.cache
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CopyComplete
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.dll
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.pdb
+C:\Users\Amen-Yab\Videos\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csprojAssemblyReference.cache
+E:\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll.config
+E:\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll
+E:\ShareSysProd\ShareSysProd\bin\ShareSysProd.pdb
+E:\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe
+E:\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe.config
+E:\ShareSysProd\ShareSysProd\bin\roslyn\csc.rsp
+E:\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe
+E:\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe.config
+E:\ShareSysProd\ShareSysProd\bin\roslyn\csi.rsp
+E:\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Managed.Core.targets
+E:\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.AppContext.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Collections.Immutable.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Console.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Globalization.Calendars.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Http.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Sockets.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Reflection.Metadata.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.ValueTuple.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe
+E:\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe.config
+E:\ShareSysProd\ShareSysProd\bin\roslyn\vbc.rsp
+E:\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe
+E:\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe.config
+E:\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.dll
+E:\ShareSysProd\ShareSysProd\bin\EntityFramework.dll
+E:\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Web.Infrastructure.dll
+E:\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.dll
+E:\ShareSysProd\ShareSysProd\bin\Owin.dll
+E:\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.dll
+E:\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.dll
+E:\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.dll
+E:\ShareSysProd\ShareSysProd\bin\System.Web.Razor.dll
+E:\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.dll
+E:\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.dll
+E:\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.dll
+E:\ShareSysProd\ShareSysProd\bin\WebGrease.dll
+E:\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.xml
+E:\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.xml
+E:\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.xml
+E:\ShareSysProd\ShareSysProd\bin\System.Web.Razor.xml
+E:\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.xml
+E:\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.xml
+E:\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.xml
+E:\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.xml
+E:\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.pdb
+E:\ShareSysProd\ShareSysProd\bin\EntityFramework.xml
+E:\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.xml
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.xml
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.xml
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.xml
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+E:\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+E:\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.GenerateResource.cache
+E:\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CopyComplete
+E:\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.dll
+E:\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.pdb
+E:\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csprojAssemblyReference.cache
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll.config
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\ShareSysProd.pdb
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe.config
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\csc.rsp
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe.config
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\csi.rsp
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Managed.Core.targets
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.AppContext.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Collections.Immutable.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Console.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Globalization.Calendars.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Http.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Sockets.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Reflection.Metadata.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.ValueTuple.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XmlDocument.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe.config
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\vbc.rsp
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe.config
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\EntityFramework.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Web.Infrastructure.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Owin.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.Razor.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\WebGrease.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.Razor.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.pdb
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\EntityFramework.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.GenerateResource.cache
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CoreCompileInputs.cache
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CopyComplete
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.dll
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.pdb
+E:\applications\Share\Go Live\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csprojAssemblyReference.cache
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.GenerateResource.cache
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CoreCompileInputs.cache
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.pdb
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll.config
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\ShareSysProd.pdb
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe.config
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\csc.rsp
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe.config
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\csi.rsp
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Managed.Core.targets
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.AppContext.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Collections.Immutable.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Console.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Globalization.Calendars.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Http.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Sockets.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Reflection.Metadata.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.ValueTuple.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XmlDocument.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe.config
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\vbc.rsp
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe.config
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\EntityFramework.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Web.Infrastructure.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Owin.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Razor.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\WebGrease.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Razor.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.pdb
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\EntityFramework.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CopyComplete
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportSource.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.Shared.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\bin\stdole.dll
+E:\OnProgress_Sys\Current\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csprojAssemblyReference.cache
+F:\Home_final\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll.config
+F:\Home_final\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\ShareSysProd.pdb
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe.config
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\csc.rsp
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe.config
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\csi.rsp
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.AppContext.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Collections.Immutable.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Console.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Globalization.Calendars.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Http.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Sockets.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Reflection.Metadata.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.ValueTuple.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe.config
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\vbc.rsp
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe
+F:\Home_final\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe.config
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.CrystalReports.Engine.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportSource.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.Shared.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\EntityFramework.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Web.Infrastructure.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Owin.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Razor.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\WebGrease.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\stdole.dll
+F:\Home_final\ShareSysProd\ShareSysProd\bin\EntityFramework.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.Razor.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.pdb
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Home_final\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+F:\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+F:\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+F:\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.GenerateResource.cache
+F:\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CopyComplete
+F:\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.dll
+F:\Home_final\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.pdb
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Collections.Immutable.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Reflection.Metadata.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Reports\VoteResult.rpt
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Reports\VoteResult1.cs
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll.config
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\ShareSysProd.pdb
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe.config
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\csc.rsp
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe.config
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\csi.rsp
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Managed.Core.targets
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.AppContext.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Console.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Globalization.Calendars.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Http.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Sockets.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.ValueTuple.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XmlDocument.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe.config
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\vbc.rsp
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe.config
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\EntityFramework.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Web.Infrastructure.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Owin.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Razor.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\WebGrease.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\EntityFramework.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Razor.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.pdb
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.GenerateResource.cache
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CoreCompileInputs.cache
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CopyComplete
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.dll
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.pdb
+E:\applications\Share\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csprojAssemblyReference.cache
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Reports\VoteResult.rpt
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Reports\VoteResult1.cs
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll.config
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\ShareSysProd.pdb
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe.config
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\csc.rsp
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe.config
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\csi.rsp
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.AppContext.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Collections.Immutable.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Console.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Globalization.Calendars.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Http.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Sockets.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Reflection.Metadata.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.ValueTuple.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe.config
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\vbc.rsp
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe.config
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportSource.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.Shared.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\EntityFramework.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Web.Infrastructure.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Owin.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Razor.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\WebGrease.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\stdole.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\EntityFramework.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.Razor.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.pdb
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csprojAssemblyReference.cache
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.GenerateResource.cache
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CoreCompileInputs.cache
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CopyComplete
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.dll
+E:\Share Related 2021\Febrary_Final_2021\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.pdb
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csprojAssemblyReference.cache
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.GenerateResource.cache
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CoreCompileInputs.cache
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.pdb
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Reports\VoteResult.rpt
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Reports\VoteResult1.cs
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll.config
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\ShareSysProd.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\ShareSysProd.pdb
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\csc.exe.config
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\csc.rsp
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\csi.exe.config
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\csi.rsp
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Managed.Core.targets
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.AppContext.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Collections.Immutable.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Console.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Globalization.Calendars.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Http.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Net.Sockets.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Reflection.Metadata.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.ValueTuple.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XmlDocument.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\vbc.exe.config
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\vbc.rsp
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\roslyn\VBCSCompiler.exe.config
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportSource.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.Shared.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\EntityFramework.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Web.Infrastructure.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Owin.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.Razor.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\WebGrease.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\stdole.dll
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\EntityFramework.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\EntityFramework.SqlServer.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.Helpers.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.Mvc.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.Optimization.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.Razor.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Deployment.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\System.Web.WebPages.Razor.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Newtonsoft.Json.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Antlr3.Runtime.pdb
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Core.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Facebook.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Cookies.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Google.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.Twitter.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.Owin.Security.OAuth.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\RiskEvent_System\ShareSysProd\ShareSysProd\obj\Release\ShareSysProd.csproj.CopyComplete

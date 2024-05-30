@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ShareDB_V01Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Blocked_List">
+    <Key>
+      <PropertyRef Name="blocked_id" />
+    </Key>
+    <Property Name="blocked_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="share_id" Type="int" Nullable="false" />
+    <Property Name="blocked_by" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="blocked_amount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="blocked_date" Type="date" />
+    <Property Name="released_date" Type="date" />
+    <Property Name="blocked_reason" Type="varchar" MaxLength="255" />
+    <Property Name="status" Type="varchar" MaxLength="50" />
+    <Property Name="blocked_by_user" Type="nvarchar" MaxLength="128" />
+    <Property Name="released_by" Type="nvarchar" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="budget_year">
+    <Key>
+      <PropertyRef Name="budget_year_id" />
+    </Key>
+    <Property Name="budget_year_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="budget_year" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="ethiopian_year" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="start_date" Type="date" Nullable="false" />
+    <Property Name="end_date" Type="date" Nullable="false" />
+    <Property Name="days_in_year" Type="int" Nullable="false" />
+    <Property Name="year_profit" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="status" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="Dividend_Disbursement">
+    <Key>
+      <PropertyRef Name="disbursment_id" />
+    </Key>
+    <Property Name="disbursment_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="share_id" Type="int" Nullable="false" />
+    <Property Name="payment_id" Type="int" Nullable="false" />
+    <Property Name="dividend_id" Type="int" Nullable="false" />
+    <Property Name="payment_weighted" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="dividend_amount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Withdraw_amount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="capitalized_amount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="status" Type="varchar" MaxLength="100" />
+    <Property Name="transaction_status" Type="varchar" MaxLength="100" />
+    <Property Name="reference_num" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Dividend_Info">
+    <Key>
+      <PropertyRef Name="dividend_info_id" />
+    </Key>
+    <Property Name="dividend_info_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="budget_year_id" Type="int" Nullable="false" />
+    <Property Name="total_weighted_balance " Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="dividend_payout_ratio" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="created_date" Type="date" Nullable="false" />
+    <Property Name="status" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="serial">
+    <Key>
+      <PropertyRef Name="serial_id" />
+    </Key>
+    <Property Name="serial_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="serial_from" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="serial_to" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="num_share" Type="int" Nullable="false" />
+    <Property Name="status" Type="varchar" MaxLength="50" />
+    <Property Name="serial_share_id" Type="int" Nullable="false" />
+    <Property Name="subscription_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Shareholder">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="share_id" Type="varchar" MaxLength="5" StoreGeneratedPattern="Computed" />
+    <Property Name="share_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="share_amharic" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="phone_number" Type="int" Nullable="false" />
+    <Property Name="phone_number_2" Type="int" />
+    <Property Name="ownership_type" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="registration_date" Type="date" />
+    <Property Name="share_status" Type="varchar" MaxLength="30" />
+    <Property Name="Influential_status" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Subscription">
+    <Key>
+      <PropertyRef Name="subscription_id" />
+    </Key>
+    <Property Name="subscription_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sub_share_id" Type="int" Nullable="false" />
+    <Property Name="number_of_share" Type="int" Nullable="false" />
+    <Property Name="subscription_fee" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="sub_date" Type="date" Nullable="false" />
+    <Property Name="sub_status" Type="varchar" MaxLength="30" />
+    <Property Name="subscription_mode" Type="varchar" MaxLength="30" />
+    <Property Name="Is_reversed" Type="int" />
+    <Property Name="created_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="created_date" Type="date" />
+    <Property Name="approved_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="approved_date" Type="date" />
+    <Property Name="reference" Type="varchar" MaxLength="255" />
+    <Property Name="remark" Type="varchar" MaxLength="255" />
+    <Property Name="Transferred_Share" Type="int" />
+  </EntityType>
+  <EntityType Name="Transaction">
+    <Key>
+      <PropertyRef Name="transction_id" />
+    </Key>
+    <Property Name="transction_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="trans_share_id" Type="int" Nullable="false" />
+    <Property Name="trans_subscription_id" Type="int" Nullable="false" />
+    <Property Name="budget_year_id" Type="int" Nullable="false" />
+    <Property Name="Credit" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Debit" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Weighted" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="trans_date" Type="date" Nullable="false" />
+    <Property Name="trans_status" Type="varchar" MaxLength="30" />
+    <Property Name="transaction_type" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Is_reversed" Type="varchar" MaxLength="30" />
+    <Property Name="created_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="created_date" Type="date" />
+    <Property Name="approved_by" Type="nvarchar" MaxLength="128" />
+    <Property Name="approved_date" Type="date" />
+    <Property Name="reason" Type="varchar" MaxLength="255" />
+    <Property Name="remark" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Transfer">
+    <Key>
+      <PropertyRef Name="transfer_id" />
+    </Key>
+    <Property Name="transfer_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="transfer_from" Type="int" Nullable="false" />
+    <Property Name="transfer_to" Type="int" Nullable="false" />
+    <Property Name="payment_id" Type="int" Nullable="false" />
+    <Property Name="transfer_amount" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Amount_to_deduct" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="transfer_type" Type="varchar" MaxLength="100" />
+    <Property Name="transfer_fee" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="transfer_date" Type="date" Nullable="false" />
+    <Property Name="transfer_mode" Type="varchar" MaxLength="30" />
+    <Property Name="status" Type="varchar" MaxLength="30" />
+    <Property Name="referrence_num" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="transfer_reason" Type="varchar" MaxLength="100" />
+    <Property Name="temp_date" Type="date" />
+  </EntityType>
+  <Association Name="FK__Blocked_L__block__6A30C649">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Blocked_List" Type="Self.Blocked_List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Blocked_List">
+        <PropertyRef Name="blocked_by_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Blocked_L__relea__6B24EA82">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Blocked_List" Type="Self.Blocked_List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Blocked_List">
+        <PropertyRef Name="released_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Blocked_L__share__6C190EBB">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Blocked_List" Type="Self.Blocked_List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Blocked_List">
+        <PropertyRef Name="share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Dividend___budge__628FA481">
+    <End Role="budget_year" Type="Self.budget_year" Multiplicity="1" />
+    <End Role="Dividend_Info" Type="Self.Dividend_Info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="budget_year">
+        <PropertyRef Name="budget_year_id" />
+      </Principal>
+      <Dependent Role="Dividend_Info">
+        <PropertyRef Name="budget_year_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Dividend___divid__6754599E">
+    <End Role="Dividend_Info" Type="Self.Dividend_Info" Multiplicity="1" />
+    <End Role="Dividend_Disbursement" Type="Self.Dividend_Disbursement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dividend_Info">
+        <PropertyRef Name="dividend_info_id" />
+      </Principal>
+      <Dependent Role="Dividend_Disbursement">
+        <PropertyRef Name="dividend_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Dividend___payme__66603565">
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="1" />
+    <End Role="Dividend_Disbursement" Type="Self.Dividend_Disbursement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transaction">
+        <PropertyRef Name="transction_id" />
+      </Principal>
+      <Dependent Role="Dividend_Disbursement">
+        <PropertyRef Name="payment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Dividend___share__656C112C">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Dividend_Disbursement" Type="Self.Dividend_Disbursement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Dividend_Disbursement">
+        <PropertyRef Name="share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__serial__serial_s__59FA5E80">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="serial" Type="Self.serial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="serial">
+        <PropertyRef Name="serial_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__serial__subscrip__59063A47">
+    <End Role="Subscription" Type="Self.Subscription" Multiplicity="1" />
+    <End Role="serial" Type="Self.serial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subscription">
+        <PropertyRef Name="subscription_id" />
+      </Principal>
+      <Dependent Role="serial">
+        <PropertyRef Name="subscription_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subscript__appro__4CA06362">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Subscription" Type="Self.Subscription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subscription">
+        <PropertyRef Name="approved_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subscript__creat__4BAC3F29">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Subscription" Type="Self.Subscription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subscription">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Subscript__sub_s__4D94879B">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Subscription" Type="Self.Subscription" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Subscription">
+        <PropertyRef Name="sub_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__appro__5441852A">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="approved_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__budge__5535A963">
+    <End Role="budget_year" Type="Self.budget_year" Multiplicity="1" />
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="budget_year">
+        <PropertyRef Name="budget_year_id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="budget_year_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__creat__534D60F1">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="created_by" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__trans__52593CB8">
+    <End Role="Subscription" Type="Self.Subscription" Multiplicity="1" />
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subscription">
+        <PropertyRef Name="subscription_id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="trans_subscription_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__trans__5629CD9C">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="trans_share_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transfer__paymen__5DCAEF64">
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="1" />
+    <End Role="Transfer" Type="Self.Transfer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transaction">
+        <PropertyRef Name="transction_id" />
+      </Principal>
+      <Dependent Role="Transfer">
+        <PropertyRef Name="payment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transfer__transf__5EBF139D">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Transfer" Type="Self.Transfer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transfer">
+        <PropertyRef Name="transfer_from" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transfer__transf__5FB337D6">
+    <End Role="Shareholder" Type="Self.Shareholder" Multiplicity="1" />
+    <End Role="Transfer" Type="Self.Transfer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shareholder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transfer">
+        <PropertyRef Name="transfer_to" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="DeleteUserfromRole" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="nvarchar" Mode="In" />
+    <Parameter Name="RoleId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Get_RoleByID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RoleId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Get_RoleByID2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="GetUsers_RoleByID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RoleId" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="ShareDB_V01ModelStoreContainer">
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Blocked_List" EntityType="Self.Blocked_List" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="budget_year" EntityType="Self.budget_year" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Dividend_Disbursement" EntityType="Self.Dividend_Disbursement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Dividend_Info" EntityType="Self.Dividend_Info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="serial" EntityType="Self.serial" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Shareholder" EntityType="Self.Shareholder" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subscription" EntityType="Self.Subscription" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transaction" EntityType="Self.Transaction" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transfer" EntityType="Self.Transfer" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Blocked_L__block__6A30C649" Association="Self.FK__Blocked_L__block__6A30C649">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Blocked_List" EntitySet="Blocked_List" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Blocked_L__relea__6B24EA82" Association="Self.FK__Blocked_L__relea__6B24EA82">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Blocked_List" EntitySet="Blocked_List" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Blocked_L__share__6C190EBB" Association="Self.FK__Blocked_L__share__6C190EBB">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Blocked_List" EntitySet="Blocked_List" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Dividend___budge__628FA481" Association="Self.FK__Dividend___budge__628FA481">
+      <End Role="budget_year" EntitySet="budget_year" />
+      <End Role="Dividend_Info" EntitySet="Dividend_Info" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Dividend___divid__6754599E" Association="Self.FK__Dividend___divid__6754599E">
+      <End Role="Dividend_Info" EntitySet="Dividend_Info" />
+      <End Role="Dividend_Disbursement" EntitySet="Dividend_Disbursement" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Dividend___payme__66603565" Association="Self.FK__Dividend___payme__66603565">
+      <End Role="Transaction" EntitySet="Transaction" />
+      <End Role="Dividend_Disbursement" EntitySet="Dividend_Disbursement" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Dividend___share__656C112C" Association="Self.FK__Dividend___share__656C112C">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Dividend_Disbursement" EntitySet="Dividend_Disbursement" />
+    </AssociationSet>
+    <AssociationSet Name="FK__serial__serial_s__59FA5E80" Association="Self.FK__serial__serial_s__59FA5E80">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="serial" EntitySet="serial" />
+    </AssociationSet>
+    <AssociationSet Name="FK__serial__subscrip__59063A47" Association="Self.FK__serial__subscrip__59063A47">
+      <End Role="Subscription" EntitySet="Subscription" />
+      <End Role="serial" EntitySet="serial" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subscript__appro__4CA06362" Association="Self.FK__Subscript__appro__4CA06362">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Subscription" EntitySet="Subscription" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subscript__creat__4BAC3F29" Association="Self.FK__Subscript__creat__4BAC3F29">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Subscription" EntitySet="Subscription" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Subscript__sub_s__4D94879B" Association="Self.FK__Subscript__sub_s__4D94879B">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Subscription" EntitySet="Subscription" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__appro__5441852A" Association="Self.FK__Transacti__appro__5441852A">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__budge__5535A963" Association="Self.FK__Transacti__budge__5535A963">
+      <End Role="budget_year" EntitySet="budget_year" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__creat__534D60F1" Association="Self.FK__Transacti__creat__534D60F1">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__trans__52593CB8" Association="Self.FK__Transacti__trans__52593CB8">
+      <End Role="Subscription" EntitySet="Subscription" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__trans__5629CD9C" Association="Self.FK__Transacti__trans__5629CD9C">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transfer__paymen__5DCAEF64" Association="Self.FK__Transfer__paymen__5DCAEF64">
+      <End Role="Transaction" EntitySet="Transaction" />
+      <End Role="Transfer" EntitySet="Transfer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transfer__transf__5EBF139D" Association="Self.FK__Transfer__transf__5EBF139D">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Transfer" EntitySet="Transfer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transfer__transf__5FB337D6" Association="Self.FK__Transfer__transf__5FB337D6">
+      <End Role="Shareholder" EntitySet="Shareholder" />
+      <End Role="Transfer" EntitySet="Transfer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

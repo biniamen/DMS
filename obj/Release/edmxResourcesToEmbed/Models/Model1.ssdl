@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RiskEventDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ClaimType" Type="nvarchar(max)" />
+    <Property Name="ClaimValue" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Branches_and_Department">
+    <Key>
+      <PropertyRef Name="branch_id" />
+    </Key>
+    <Property Name="branch_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Branch_department_Code" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Branch_department_name" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Categories_Type">
+    <Key>
+      <PropertyRef Name="CategoriesId" />
+    </Key>
+    <Property Name="CategoriesId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ApprovedDate" Type="datetime" />
+    <Property Name="CreatedByUserId" Type="nvarchar" MaxLength="128" />
+    <Property Name="ApprovedByUserId" Type="nvarchar" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="Document">
+    <Key>
+      <PropertyRef Name="DocumentId" />
+    </Key>
+    <Property Name="DocumentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DocumentationId" Type="int" Nullable="false" />
+    <Property Name="DocumentTypeId" Type="int" Nullable="false" />
+    <Property Name="FileLocation" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="CreatedByUserId" Type="nvarchar" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="Documentation">
+    <Key>
+      <PropertyRef Name="DocumentationId" />
+    </Key>
+    <Property Name="DocumentationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CIF" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ClientName" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Branch" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="CustomerType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CategoriesId" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ApprovedDate" Type="datetime" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" />
+    <Property Name="Status" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+    <Property Name="CreatedByUserId" Type="nvarchar" MaxLength="128" />
+    <Property Name="ApprovedByUserId" Type="nvarchar" MaxLength="128" />
+    <Property Name="DocumentReference" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DocumentationProcess">
+    <Key>
+      <PropertyRef Name="DocumentationProcessId" />
+    </Key>
+    <Property Name="DocumentationProcessId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CIF" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ClientName" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Branch" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="CustomerType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CategoriesId" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ApprovedDate" Type="datetime" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" />
+    <Property Name="Status" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+    <Property Name="DocumentationId" Type="int" />
+    <Property Name="CreatedByUserId" Type="nvarchar" MaxLength="128" />
+    <Property Name="ApprovedByUserId" Type="nvarchar" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="DocumentMap">
+    <Key>
+      <PropertyRef Name="DocumentMapId" />
+    </Key>
+    <Property Name="DocumentMapId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoriesId" Type="int" Nullable="false" />
+    <Property Name="DocumentTypeId" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" />
+    <Property Name="Status" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mandatorie" Type="bit" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ApprovedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DocumentType">
+    <Key>
+      <PropertyRef Name="DocumentTypeId" />
+    </Key>
+    <Property Name="DocumentTypeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DocumentTypeName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ApprovedDate" Type="datetime" />
+    <Property Name="CreatedByUserId" Type="nvarchar" MaxLength="128" />
+    <Property Name="ApprovedByUserId" Type="nvarchar" MaxLength="128" />
+  </EntityType>
+  <Association Name="FK__Documenta__Categ__05F8DC4F">
+    <End Role="Categories_Type" Type="Self.Categories_Type" Multiplicity="1" />
+    <End Role="Documentation" Type="Self.Documentation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories_Type">
+        <PropertyRef Name="CategoriesId" />
+      </Principal>
+      <Dependent Role="Documentation">
+        <PropertyRef Name="CategoriesId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Documenta__Categ__7A8729A3">
+    <End Role="Categories_Type" Type="Self.Categories_Type" Multiplicity="1" />
+    <End Role="DocumentationProcess" Type="Self.DocumentationProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories_Type">
+        <PropertyRef Name="CategoriesId" />
+      </Principal>
+      <Dependent Role="DocumentationProcess">
+        <PropertyRef Name="CategoriesId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DocumentM__Categ__01342732">
+    <End Role="Categories_Type" Type="Self.Categories_Type" Multiplicity="1" />
+    <End Role="DocumentMap" Type="Self.DocumentMap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories_Type">
+        <PropertyRef Name="CategoriesId" />
+      </Principal>
+      <Dependent Role="DocumentMap">
+        <PropertyRef Name="CategoriesId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DocumentM__Docum__004002F9">
+    <End Role="DocumentType" Type="Self.DocumentType" Multiplicity="1" />
+    <End Role="DocumentMap" Type="Self.DocumentMap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DocumentType">
+        <PropertyRef Name="DocumentTypeId" />
+      </Principal>
+      <Dependent Role="DocumentMap">
+        <PropertyRef Name="DocumentTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CategoriesType_ApprovedByUserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Categories_Type" Type="Self.Categories_Type" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Categories_Type">
+        <PropertyRef Name="ApprovedByUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CategoriesType_CreatedByUserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Categories_Type" Type="Self.Categories_Type" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Categories_Type">
+        <PropertyRef Name="CreatedByUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Document_CreatedByUserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Document" Type="Self.Document" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Document">
+        <PropertyRef Name="CreatedByUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Document_DocumentationId">
+    <End Role="Documentation" Type="Self.Documentation" Multiplicity="1" />
+    <End Role="Document" Type="Self.Document" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Documentation">
+        <PropertyRef Name="DocumentationId" />
+      </Principal>
+      <Dependent Role="Document">
+        <PropertyRef Name="DocumentationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Document_DocumentTypeId">
+    <End Role="DocumentType" Type="Self.DocumentType" Multiplicity="1" />
+    <End Role="Document" Type="Self.Document" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DocumentType">
+        <PropertyRef Name="DocumentTypeId" />
+      </Principal>
+      <Dependent Role="Document">
+        <PropertyRef Name="DocumentTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Documentation_ApprovedByUserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Documentation" Type="Self.Documentation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Documentation">
+        <PropertyRef Name="ApprovedByUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Documentation_CreatedByUserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="Documentation" Type="Self.Documentation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Documentation">
+        <PropertyRef Name="CreatedByUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DocumentationProcess_ApprovedByUserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="DocumentationProcess" Type="Self.DocumentationProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DocumentationProcess">
+        <PropertyRef Name="ApprovedByUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DocumentationProcess_Categories">
+    <End Role="Categories_Type" Type="Self.Categories_Type" Multiplicity="1" />
+    <End Role="DocumentationProcess" Type="Self.DocumentationProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories_Type">
+        <PropertyRef Name="CategoriesId" />
+      </Principal>
+      <Dependent Role="DocumentationProcess">
+        <PropertyRef Name="CategoriesId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DocumentationProcess_CreatedByUserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="DocumentationProcess" Type="Self.DocumentationProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DocumentationProcess">
+        <PropertyRef Name="CreatedByUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DocumentType_ApprovedByUserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="DocumentType" Type="Self.DocumentType" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DocumentType">
+        <PropertyRef Name="ApprovedByUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DocumentType_CreatedByUserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="0..1" />
+    <End Role="DocumentType" Type="Self.DocumentType" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DocumentType">
+        <PropertyRef Name="CreatedByUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="DeleteUserfromRole" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="nvarchar" Mode="In" />
+    <Parameter Name="RoleId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Get_RoleByID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RoleId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Get_RoleByID2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="GetUsers_RoleByID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RoleId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="VoteResult" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="RiskEventDBModelStoreContainer">
+    <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Branches_and_Department" EntityType="Self.Branches_and_Department" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categories_Type" EntityType="Self.Categories_Type" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Document" EntityType="Self.Document" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Documentation" EntityType="Self.Documentation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DocumentationProcess" EntityType="Self.DocumentationProcess" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DocumentMap" EntityType="Self.DocumentMap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DocumentType" EntityType="Self.DocumentType" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Documenta__Categ__05F8DC4F" Association="Self.FK__Documenta__Categ__05F8DC4F">
+      <End Role="Categories_Type" EntitySet="Categories_Type" />
+      <End Role="Documentation" EntitySet="Documentation" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Documenta__Categ__7A8729A3" Association="Self.FK__Documenta__Categ__7A8729A3">
+      <End Role="Categories_Type" EntitySet="Categories_Type" />
+      <End Role="DocumentationProcess" EntitySet="DocumentationProcess" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DocumentM__Categ__01342732" Association="Self.FK__DocumentM__Categ__01342732">
+      <End Role="Categories_Type" EntitySet="Categories_Type" />
+      <End Role="DocumentMap" EntitySet="DocumentMap" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DocumentM__Docum__004002F9" Association="Self.FK__DocumentM__Docum__004002F9">
+      <End Role="DocumentType" EntitySet="DocumentType" />
+      <End Role="DocumentMap" EntitySet="DocumentMap" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CategoriesType_ApprovedByUserId" Association="Self.FK_CategoriesType_ApprovedByUserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Categories_Type" EntitySet="Categories_Type" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CategoriesType_CreatedByUserId" Association="Self.FK_CategoriesType_CreatedByUserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Categories_Type" EntitySet="Categories_Type" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Document_CreatedByUserId" Association="Self.FK_Document_CreatedByUserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Document" EntitySet="Document" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Document_DocumentationId" Association="Self.FK_Document_DocumentationId">
+      <End Role="Documentation" EntitySet="Documentation" />
+      <End Role="Document" EntitySet="Document" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Document_DocumentTypeId" Association="Self.FK_Document_DocumentTypeId">
+      <End Role="DocumentType" EntitySet="DocumentType" />
+      <End Role="Document" EntitySet="Document" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Documentation_ApprovedByUserId" Association="Self.FK_Documentation_ApprovedByUserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Documentation" EntitySet="Documentation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Documentation_CreatedByUserId" Association="Self.FK_Documentation_CreatedByUserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Documentation" EntitySet="Documentation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DocumentationProcess_ApprovedByUserId" Association="Self.FK_DocumentationProcess_ApprovedByUserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="DocumentationProcess" EntitySet="DocumentationProcess" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DocumentationProcess_Categories" Association="Self.FK_DocumentationProcess_Categories">
+      <End Role="Categories_Type" EntitySet="Categories_Type" />
+      <End Role="DocumentationProcess" EntitySet="DocumentationProcess" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DocumentationProcess_CreatedByUserId" Association="Self.FK_DocumentationProcess_CreatedByUserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="DocumentationProcess" EntitySet="DocumentationProcess" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DocumentType_ApprovedByUserId" Association="Self.FK_DocumentType_ApprovedByUserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="DocumentType" EntitySet="DocumentType" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DocumentType_CreatedByUserId" Association="Self.FK_DocumentType_CreatedByUserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="DocumentType" EntitySet="DocumentType" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

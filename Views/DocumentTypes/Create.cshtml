@@ -1,0 +1,67 @@
+﻿@model ShareSysProd.Models.DocumentType
+
+@{
+    ViewBag.Title = "Create New Document Type";
+}
+
+@using (Html.BeginForm("Create", "DocumentTypes", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="page-content-wrapper">
+        <!-- BEGIN CONTENT BODY -->
+        <div class="page-content">
+            <!-- BEGIN PAGE HEAD-->
+            <!-- END PAGE HEAD-->
+            <!-- BEGIN PAGE BREADCRUMB -->
+            <!-- Contact Form -->
+            <div class="note note-success">
+                <h3>Document Type Registration</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- BEGIN VALIDATION STATES-->
+                    <div class="portlet light portlet-fit portlet-form bordered">
+                        <div class="portlet-title">
+                            <div class="caption">
+                                <i class="icon-layers font-green"></i>
+                                <span class="caption-subject font-green sbold uppercase">New Document Type</span>
+                            </div>
+                            <div class="portlet-body">
+                                <div class="form-horizontal">
+                                    <hr />
+                                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2">Document Type Name</label>
+                                        <div class="col-md-10">
+                                            @Html.EditorFor(model => model.DocumentTypeName, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                                            @Html.ValidationMessageFor(model => model.DocumentTypeName, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2">Description</label>
+                                        <div class="col-md-10">
+                                            @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                                            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                  
+
+                                    <div class="form-group">
+                                        <div class="col-md-offset-2 col-md-10">
+                                            <input type="submit" value="Create Document Type" class="btn green" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END VALIDATION STATES-->
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,796 @@
+E:\applications\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+E:\applications\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+E:\applications\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+E:\applications\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+E:\applications\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+E:\applications\RiskEvent\RiskEvent\bin\EntityFramework.dll
+E:\applications\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+E:\applications\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+E:\applications\RiskEvent\RiskEvent\bin\Owin.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+E:\applications\RiskEvent\RiskEvent\bin\WebGrease.dll
+E:\applications\RiskEvent\RiskEvent\bin\EntityFramework.xml
+E:\applications\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+E:\applications\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+E:\applications\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+E:\applications\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+E:\applications\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\applications\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+E:\applications\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+E:\applications\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\applications\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.GenerateResource.cache
+E:\applications\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CoreCompileInputs.cache
+E:\applications\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CopyComplete
+E:\applications\RiskEvent\RiskEvent\obj\Release\ShareSysProd.dll
+E:\applications\RiskEvent\RiskEvent\obj\Release\ShareSysProd.pdb
+E:\applications\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.rpt
+E:\applications\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.cs
+E:\applications\RiskEvent\RiskEvent\obj\Release\RiskEvent.csprojAssemblyReference.cache
+D:\Live\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.rpt
+D:\Live\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.cs
+D:\Live\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+D:\Live\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+D:\Live\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+D:\Live\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+D:\Live\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+D:\Live\RiskEvent\RiskEvent\bin\EntityFramework.dll
+D:\Live\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+D:\Live\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+D:\Live\RiskEvent\RiskEvent\bin\Owin.dll
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+D:\Live\RiskEvent\RiskEvent\bin\WebGrease.dll
+D:\Live\RiskEvent\RiskEvent\bin\EntityFramework.xml
+D:\Live\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+D:\Live\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+D:\Live\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+D:\Live\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Live\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Live\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.AssemblyReference.cache
+D:\Live\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+D:\Live\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+D:\Live\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+D:\Live\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.GenerateResource.cache
+D:\Live\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CoreCompileInputs.cache
+D:\Live\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CopyComplete
+D:\Live\RiskEvent\RiskEvent\obj\Release\ShareSysProd.dll
+D:\Live\RiskEvent\RiskEvent\obj\Release\ShareSysProd.pdb
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.rpt
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.cs
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\EntityFramework.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Owin.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\WebGrease.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\EntityFramework.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.AssemblyReference.cache
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.GenerateResource.cache
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CoreCompileInputs.cache
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CopyComplete
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\obj\Release\ShareSysProd.dll
+E:\applications\Final Touch of Risk\RiskEvent\RiskEvent\obj\Release\ShareSysProd.pdb
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.rpt
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.cs
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\EntityFramework.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Owin.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\WebGrease.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\EntityFramework.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+D:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+D:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+D:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.GenerateResource.cache
+D:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CoreCompileInputs.cache
+D:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CopyComplete
+D:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\ShareSysProd.dll
+D:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\ShareSysProd.pdb
+D:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\RiskEvent.csprojAssemblyReference.cache
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.rpt
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.cs
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\EntityFramework.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Owin.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\WebGrease.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\EntityFramework.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\RiskEvent.csprojAssemblyReference.cache
+E:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+E:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+E:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.GenerateResource.cache
+E:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CoreCompileInputs.cache
+E:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CopyComplete
+E:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\ShareSysProd.dll
+E:\BiniyamApps\RiskEvent\RiskEvent\obj\Release\ShareSysProd.pdb
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.rpt
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.cs
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\EntityFramework.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Owin.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\WebGrease.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\EntityFramework.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.GenerateResource.cache
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CoreCompileInputs.cache
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CopyComplete
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\obj\Release\ShareSysProd.dll
+E:\BiniyamApps\DMS\RiskEvent\RiskEvent\obj\Release\ShareSysProd.pdb
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.rpt
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Reports\RiskEventReport_Qaureterly.cs
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\ShareSysProd.dll.config
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\ShareSysProd.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\ShareSysProd.pdb
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\csc.exe
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\csc.exe.config
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\csc.rsp
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\csi.exe
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\csi.exe.config
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\csi.rsp
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Managed.Core.targets
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.AppContext.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Collections.Immutable.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Console.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Globalization.Calendars.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Net.Http.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Net.Sockets.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Reflection.Metadata.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.ValueTuple.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XmlDocument.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\vbc.exe
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\vbc.exe.config
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\vbc.rsp
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\roslyn\VBCSCompiler.exe.config
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Antlr3.Runtime.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\EntityFramework.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Web.Infrastructure.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Newtonsoft.Json.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Owin.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.Helpers.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.Mvc.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.Optimization.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.Razor.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.WebPages.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\WebGrease.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\EntityFramework.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\EntityFramework.SqlServer.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.Helpers.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.Mvc.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.Optimization.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.Razor.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.WebPages.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.WebPages.Deployment.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\System.Web.WebPages.Razor.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Newtonsoft.Json.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Antlr3.Runtime.pdb
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Core.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Facebook.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Cookies.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Google.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.Twitter.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.Owin.Security.OAuth.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.InitialCreate.resources
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAdded.resources
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\obj\Release\ShareSysProd.Migrations.FullNameAddedAgain.resources
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.GenerateResource.cache
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CoreCompileInputs.cache
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\obj\Release\RiskEvent.csproj.CopyComplete
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\obj\Release\ShareSysProd.dll
+D:\New folder (2)\RiskEvent\RiskEvent\RiskEvent\obj\Release\ShareSysProd.pdb

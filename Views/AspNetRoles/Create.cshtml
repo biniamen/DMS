@@ -1,0 +1,64 @@
+﻿@model ShareSysProd.Models.AspNetRole
+@using (Html.BeginForm("NewRole", "Admin", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="page-content-wrapper">
+        <!-- BEGIN CONTENT BODY -->
+        <div class="page-content">
+            <!-- BEGIN PAGE HEAD-->
+            <!-- END PAGE HEAD-->
+            <!-- BEGIN PAGE BREADCRUMB -->
+            <!-- Contact Form -->
+            <div class="note note-success">
+                <h3>User Roles Registration</h3>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- BEGIN VALIDATION STATES-->
+                    <div class="portlet light portlet-fit portlet-form bordered">
+                        <div class="portlet-title">
+                            <div class="caption">
+                                <i class=" icon-layers font-green"></i>
+                                <span class="caption-subject font-green sbold uppercase">New Roles</span>
+                            </div>
+
+
+                            <div class="portlet-body">
+
+                                <div class="form-horizontal">
+
+                                    <hr />
+                                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                    <div class="form-group">
+                                        <label class="control-label col-md-2">Role Name</label>
+                                        <div class="col-md-10">
+                                            <input type="text" class="form-control" name="RoleName" placeholder="Enter Role Name" required/>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <div class="col-md-offset-2 col-md-10">
+                                            <input type="submit" value="Create Role" class="btn btn-default" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+}

@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ShareDB_V01ModelStoreContainer" CdmEntityContainer="ShareDB_V01Entities">
+    <EntitySetMapping Name="Shareholders">
+      <EntityTypeMapping TypeName="ShareDB_V01Model.Shareholder">
+        <MappingFragment StoreEntitySet="Shareholder">
+          <ScalarProperty Name="Influential_status" ColumnName="Influential_status" />
+          <ScalarProperty Name="share_status" ColumnName="share_status" />
+          <ScalarProperty Name="registration_date" ColumnName="registration_date" />
+          <ScalarProperty Name="ownership_type" ColumnName="ownership_type" />
+          <ScalarProperty Name="phone_number_2" ColumnName="phone_number_2" />
+          <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+          <ScalarProperty Name="share_amharic" ColumnName="share_amharic" />
+          <ScalarProperty Name="share_name" ColumnName="share_name" />
+          <ScalarProperty Name="share_id" ColumnName="share_id" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Blocked_List">
+      <EntityTypeMapping TypeName="ShareDB_V01Model.Blocked_List">
+        <MappingFragment StoreEntitySet="Blocked_List">
+          <ScalarProperty Name="released_by" ColumnName="released_by" />
+          <ScalarProperty Name="blocked_by_user" ColumnName="blocked_by_user" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="blocked_reason" ColumnName="blocked_reason" />
+          <ScalarProperty Name="released_date" ColumnName="released_date" />
+          <ScalarProperty Name="blocked_date" ColumnName="blocked_date" />
+          <ScalarProperty Name="blocked_amount" ColumnName="blocked_amount" />
+          <ScalarProperty Name="blocked_by" ColumnName="blocked_by" />
+          <ScalarProperty Name="share_id" ColumnName="share_id" />
+          <ScalarProperty Name="blocked_id" ColumnName="blocked_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="budget_year">
+      <EntityTypeMapping TypeName="ShareDB_V01Model.budget_year">
+        <MappingFragment StoreEntitySet="budget_year">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="year_profit" ColumnName="year_profit" />
+          <ScalarProperty Name="days_in_year" ColumnName="days_in_year" />
+          <ScalarProperty Name="end_date" ColumnName="end_date" />
+          <ScalarProperty Name="start_date" ColumnName="start_date" />
+          <ScalarProperty Name="ethiopian_year" ColumnName="ethiopian_year" />
+          <ScalarProperty Name="budget_year1" ColumnName="budget_year" />
+          <ScalarProperty Name="budget_year_id" ColumnName="budget_year_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dividend_Disbursement">
+      <EntityTypeMapping TypeName="ShareDB_V01Model.Dividend_Disbursement">
+        <MappingFragment StoreEntitySet="Dividend_Disbursement">
+          <ScalarProperty Name="reference_num" ColumnName="reference_num" />
+          <ScalarProperty Name="transaction_status" ColumnName="transaction_status" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="capitalized_amount" ColumnName="capitalized_amount" />
+          <ScalarProperty Name="Withdraw_amount" ColumnName="Withdraw_amount" />
+          <ScalarProperty Name="dividend_amount" ColumnName="dividend_amount" />
+          <ScalarProperty Name="payment_weighted" ColumnName="payment_weighted" />
+          <ScalarProperty Name="dividend_id" ColumnName="dividend_id" />
+          <ScalarProperty Name="payment_id" ColumnName="payment_id" />
+          <ScalarProperty Name="share_id" ColumnName="share_id" />
+          <ScalarProperty Name="disbursment_id" ColumnName="disbursment_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dividend_Info">
+      <EntityTypeMapping TypeName="ShareDB_V01Model.Dividend_Info">
+        <MappingFragment StoreEntitySet="Dividend_Info">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="created_date" ColumnName="created_date" />
+          <ScalarProperty Name="dividend_payout_ratio" ColumnName="dividend_payout_ratio" />
+          <ScalarProperty Name="total_weighted_balance_" ColumnName="total_weighted_balance " />
+          <ScalarProperty Name="budget_year_id" ColumnName="budget_year_id" />
+          <ScalarProperty Name="dividend_info_id" ColumnName="dividend_info_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="serials">
+      <EntityTypeMapping TypeName="ShareDB_V01Model.serial">
+        <MappingFragment StoreEntitySet="serial">
+          <ScalarProperty Name="subscription_id" ColumnName="subscription_id" />
+          <ScalarProperty Name="serial_share_id" ColumnName="serial_share_id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="num_share" ColumnName="num_share" />
+          <ScalarProperty Name="serial_to" ColumnName="serial_to" />
+          <ScalarProperty Name="serial_from" ColumnName="serial_from" />
+          <ScalarProperty Name="serial_id" ColumnName="serial_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subscriptions">
+      <EntityTypeMapping TypeName="ShareDB_V01Model.Subscription">
+        <MappingFragment StoreEntitySet="Subscription">
+          <ScalarProperty Name="Transferred_Share" ColumnName="Transferred_Share" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="reference" ColumnName="reference" />
+          <ScalarProperty Name="approved_date" ColumnName="approved_date" />
+          <ScalarProperty Name="approved_by" ColumnName="approved_by" />
+          <ScalarProperty Name="created_date" ColumnName="created_date" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="Is_reversed" ColumnName="Is_reversed" />
+          <ScalarProperty Name="subscription_mode" ColumnName="subscription_mode" />
+          <ScalarProperty Name="sub_status" ColumnName="sub_status" />
+          <ScalarProperty Name="sub_date" ColumnName="sub_date" />
+          <ScalarProperty Name="subscription_fee" ColumnName="subscription_fee" />
+          <ScalarProperty Name="number_of_share" ColumnName="number_of_share" />
+          <ScalarProperty Name="sub_share_id" ColumnName="sub_share_id" />
+          <ScalarProperty Name="subscription_id" ColumnName="subscription_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transactions">
+      <EntityTypeMapping TypeName="ShareDB_V01Model.Transaction">
+        <MappingFragment StoreEntitySet="Transaction">
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="reason" ColumnName="reason" />
+          <ScalarProperty Name="approved_date" ColumnName="approved_date" />
+          <ScalarProperty Name="approved_by" ColumnName="approved_by" />
+          <ScalarProperty Name="created_date" ColumnName="created_date" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="Is_reversed" ColumnName="Is_reversed" />
+          <ScalarProperty Name="transaction_type" ColumnName="transaction_type" />
+          <ScalarProperty Name="trans_status" ColumnName="trans_status" />
+          <ScalarProperty Name="trans_date" ColumnName="trans_date" />
+          <ScalarProperty Name="Weighted" ColumnName="Weighted" />
+          <ScalarProperty Name="Debit" ColumnName="Debit" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="budget_year_id" ColumnName="budget_year_id" />
+          <ScalarProperty Name="trans_subscription_id" ColumnName="trans_subscription_id" />
+          <ScalarProperty Name="trans_share_id" ColumnName="trans_share_id" />
+          <ScalarProperty Name="transction_id" ColumnName="transction_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transfers">
+      <EntityTypeMapping TypeName="ShareDB_V01Model.Transfer">
+        <MappingFragment StoreEntitySet="Transfer">
+          <ScalarProperty Name="temp_date" ColumnName="temp_date" />
+          <ScalarProperty Name="transfer_reason" ColumnName="transfer_reason" />
+          <ScalarProperty Name="referrence_num" ColumnName="referrence_num" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="transfer_mode" ColumnName="transfer_mode" />
+          <ScalarProperty Name="transfer_date" ColumnName="transfer_date" />
+          <ScalarProperty Name="transfer_fee" ColumnName="transfer_fee" />
+          <ScalarProperty Name="transfer_type" ColumnName="transfer_type" />
+          <ScalarProperty Name="Amount_to_deduct" ColumnName="Amount_to_deduct" />
+          <ScalarProperty Name="transfer_amount" ColumnName="transfer_amount" />
+          <ScalarProperty Name="payment_id" ColumnName="payment_id" />
+          <ScalarProperty Name="transfer_to" ColumnName="transfer_to" />
+          <ScalarProperty Name="transfer_from" ColumnName="transfer_from" />
+          <ScalarProperty Name="transfer_id" ColumnName="transfer_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="ShareDB_V01Model.AspNetRole">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="ShareDB_V01Model.AspNetUser">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="ShareDB_V01Model.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetUser">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+      <EndProperty Name="AspNetRole">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="Get_RoleByID" FunctionName="ShareDB_V01Model.Store.Get_RoleByID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ShareDB_V01Model.Get_RoleByID_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DeleteUserfromRole" FunctionName="ShareDB_V01Model.Store.DeleteUserfromRole" />
+    <FunctionImportMapping FunctionImportName="Get_RoleByID2" FunctionName="ShareDB_V01Model.Store.Get_RoleByID2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ShareDB_V01Model.Get_RoleByID2_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
